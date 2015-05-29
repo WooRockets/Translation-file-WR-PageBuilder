@@ -1,0 +1,3049 @@
+# Copyright (C) 2014 WR PageBuilder
+# This file is distributed under the same license as the WR PageBuilder package.
+# Translators:
+# Alexander Gevak <alexgevak@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WR PageBuilder\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wr-pagebuilder\n"
+"POT-Creation-Date: 2014-12-08 07:47:49+00:00\n"
+"PO-Revision-Date: 2015-05-25 08:56+0000\n"
+"Last-Translator: Alexander Gevak <alexgevak@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/wr-pagebuilder/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: core/addon.php:262
+msgid "You can not activate this WR PageBuilder's provider:"
+msgstr "Non è possibile attivare  fornitore WR PageBuilder:"
+
+#: core/addon.php:267
+msgid "It requires WR PageBuilder's version:"
+msgstr "Richiede la versione del WR PageBuilder:"
+
+#: core/converter/converter.php:181 core/converter/converter.php:201
+msgid "Not found any %s data."
+msgstr "Non trovato dati %s "
+
+#: core/converter/converter.php:216
+msgid "Cannot backup current post."
+msgstr " Backup non è possibile per questo post"
+
+#: core/converter/converter.php:249
+msgid "Cannot update current post."
+msgstr "Impossibile caricare questo post"
+
+#: core/converter/converter.php:257
+msgid "Cannot store WR PageBuilder data to post meta."
+msgstr "Non è possibile memorizzare i dati WR PageBuilder per pubblicare meta."
+
+#: core/core.php:202
+msgid "Start using the PageBuilder"
+msgstr "Inizia ad usare PageBuilder"
+
+#. Plugin Name of the plugin/theme
+#: core/core.php:403 core/core.php:1120 core/product/plugin.php:49
+#: core/product/plugin.php:53 templates/page-builder.php:191
+msgid "WR PageBuilder"
+msgstr "WR PageBuilder"
+
+#: core/core.php:616
+msgid "empty shortcode name / parameters"
+msgstr "Nome/parametri shortcode vuoto "
+
+#: core/core.php:969 core/helper/functions.php:65
+msgid "Add Page Element"
+msgstr "Aggiungi elemento "
+
+#: core/core.php:1119
+msgid "Classic Editor"
+msgstr "Editore di testo classico"
+
+#: core/core.php:1212
+msgid "<i class=\"icon-checkmark\"></i>"
+msgstr "<i class=\"icon-checkmark\"></i>"
+
+#: core/core.php:1212
+msgid "Fail. Can't delete cache folder"
+msgstr "Errore . Impossibile eliminare la cartella di cache"
+
+#: core/core.php:1234
+msgid "WR PageBuilder Bug Report"
+msgstr "WR PageBuilder report dei bug"
+
+#: core/core.php:1422 core/helper/functions.php:64
+#: core/helper/functions.php:1053 core/helper/html/group-table.php:59
+#: core/helper/html/group.php:57 core/helper/shortcode.php:957
+#: core/objects/modal.php:447 shortcodes/pricing-table/pricing-table.php:129
+msgid "(Untitled)"
+msgstr "(senza titolo)"
+
+#: core/helper/functions.php:33
+msgid ""
+"Are you sure you want to delete the whole row including all elements it "
+"contains?"
+msgstr "Sei sicuro di voler cancellare l'intera riga, compresi tutti gli elementi in essa contenuti?"
+
+#: core/helper/functions.php:34
+msgid ""
+"Are you sure you want to delete the whole column including all elements it "
+"contains?"
+msgstr "Sei sicuro di voler eliminare l'intera colonna compresi tutti gli elementi in essa contenuti?"
+
+#: core/helper/functions.php:35
+msgid "Are you sure you want to delete the element?"
+msgstr "Sei sicuro di voler eliminare l'elemento?"
+
+#: core/helper/functions.php:37
+msgid "A table must has atleast 1 columns. You can't remove this column"
+msgstr "Tabella deve contenere almeno 1 colonna. Non è possibile rimuovere questa colonna"
+
+#: core/helper/functions.php:38
+msgid "A table must has atleast 2 rows. You can't remove this row"
+msgstr "Tabella deve contenere almeno 2 file. Non è possibile rimuovere questa riga"
+
+#: core/helper/functions.php:39
+msgid "Row span/Column span can't be negative"
+msgstr "Tabella/colonna non può essere negativa"
+
+#: core/helper/functions.php:41
+msgid "Saving content! Please wait a moment."
+msgstr "Salvataggio del contenuto! Si prega di attendere un'attimo."
+
+#: core/helper/functions.php:42
+msgid "Having error on loading TinyMCE."
+msgstr " Errore  riscontrato sul caricamento TinyMCE"
+
+#: core/helper/functions.php:43 core/product/plugin.php:62
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: core/helper/functions.php:44
+msgid "Page Modal"
+msgstr "Modalità Pagina"
+
+#: core/helper/functions.php:45
+msgid "Convert to "
+msgstr "Converti in"
+
+#: core/helper/functions.php:47 shortcodes/audio/audio.php:280
+#: shortcodes/audio/audio.php:289
+msgid "No audio source selected"
+msgstr "Nessuna fonte audio selezionata"
+
+#: core/helper/functions.php:48
+msgid "Select Destination Marker"
+msgstr "Seleziona Destinazione Marker"
+
+#: core/helper/functions.php:49 shortcodes/video/video.php:392
+#: shortcodes/video/video.php:401 shortcodes/video/video.php:410
+msgid "No video file selected"
+msgstr "Nessun file video selezionato"
+
+#: core/helper/functions.php:51 core/helper/html/destination.php:21
+#: core/helper/html/large-image.php:23 core/helper/type.php:385
+#: core/shortcode/layout/row.php:75
+msgid "None"
+msgstr "Nessun"
+
+#: core/helper/functions.php:52
+msgid "The link is invalid"
+msgstr "Il collegamento link non è valido"
+
+#: core/helper/functions.php:53
+msgid "No %s found"
+msgstr "Non %s trovato"
+
+#: core/helper/functions.php:54
+msgid "Single %s"
+msgstr "Singolo %s"
+
+#: core/helper/functions.php:55
+msgid "copy"
+msgstr "copia"
+
+#: core/helper/functions.php:56
+msgid "%s Filter"
+msgstr "%s Filtra"
+
+#: core/helper/functions.php:57
+msgid "Start From"
+msgstr "Inizia da"
+
+#: core/helper/functions.php:58 core/helper/type.php:613
+#: core/helper/type.php:775
+msgid "Menu"
+msgstr "Menu"
+
+#: core/helper/functions.php:59
+msgid "Filter By"
+msgstr "Filtra per"
+
+#: core/helper/functions.php:60
+#: shortcodes/pricing-table/item/pricing-table.php:151
+#: shortcodes/pricing-table/pricing-table.php:113
+#: shortcodes/pricing-table/pricing-table.php:155
+msgid "Attributes"
+msgstr "Attributi"
+
+#: core/helper/functions.php:61
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:35
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:36
+#: shortcodes/pricing-table/item/pricing-table-attr.php:35
+#: shortcodes/pricing-table/item/pricing-table-attr.php:36
+msgid "Attribute"
+msgstr "Attributo"
+
+#: core/helper/functions.php:62
+msgid "Option Attribute"
+msgstr "Opzioni dell'attributo"
+
+#: core/helper/functions.php:63
+msgid ""
+"After turning off, the content built with PageBuilder will be parsed to "
+"plain HTML code and inserted to default editor. Are you sure you want to "
+"turn PageBuilder off?"
+msgstr "Dopo aver spento, il contenuto costruito con PageBuilder verrà analizzato il codice HTML semplice e inserito di default dell'editor. Sei sicuro di voler trasformare e spegnere PageBuilder ?"
+
+#: core/helper/functions.php:67
+msgid "You used up to 50 characters"
+msgstr "Hai usato fino a 50 carrateri"
+
+#: core/helper/functions.php:68
+msgid ""
+"The whole content of current Post will be replaced by content of selected "
+"Page item. Do you want to continue?"
+msgstr "L'intero contenuto del corrente post verrà sostituito dal contenuto della voce di pagina selezionata. Vuoi continuare?"
+
+#: core/helper/functions.php:70 core/helper/functions.php:917
+msgid "Deactivate element"
+msgstr "Disattivare elemento"
+
+#: core/helper/functions.php:71 core/helper/functions.php:924
+msgid "Activate element"
+msgstr "Attivare elemento"
+
+#: core/helper/functions.php:74
+msgid "Select"
+msgstr "Seleziona"
+
+#: core/helper/functions.php:77
+msgid "Select template"
+msgstr "Seleziona tema / template"
+
+#: core/helper/functions.php:78
+msgid "Upload successfully"
+msgstr "Caricato con successo"
+
+#: core/helper/functions.php:79
+msgid "Upload fail"
+msgstr "Errore di caricamento"
+
+#: core/helper/functions.php:80
+msgid "Page is deleted successfully"
+msgstr "Pagina è stata cancellata con successo "
+
+#: core/helper/functions.php:81
+msgid "Fail. Can't delete layout"
+msgstr "Errore. Non puoi cancellare layout"
+
+#: core/helper/functions.php:82
+msgid "All pages in this group will be remove. Do you want to continue ?"
+msgstr "Tutte le pagine di questo gruppo saranno rimosse. Vuoi continuare?"
+
+#: core/helper/functions.php:83
+msgid "This page will be remove. Do you want to continue ?"
+msgstr "Questa pagina sarà rimossa. Vuoi continuare?"
+
+#: core/helper/functions.php:84
+msgid "Template name can not be null"
+msgstr "Nome template non può essere nullo"
+
+#: core/helper/functions.php:85
+msgid "Template name exists. Please choose another one."
+msgstr "Nome template esiste. Si prega di scegliere un altro."
+
+#: core/helper/functions.php:88 core/shortcode/layout/row.php:253
+#: templates/page-builder.php:52
+msgid "Custom CSS"
+msgstr "Personalizza Css"
+
+#: core/helper/functions.php:89
+msgid "File doesn't exist"
+msgstr "Il file non esiste"
+
+#: core/helper/functions.php:92
+msgid "Submit a bug report"
+msgstr "Invia il report dei Bug"
+
+#: core/helper/functions.php:93
+msgid "Submit"
+msgstr "Invia"
+
+#: core/helper/functions.php:94
+msgid "Send report bug successfully!"
+msgstr "Invio del report bug andato a buon fine!"
+
+#: core/helper/functions.php:95
+msgid "Fail to send report, please check again!"
+msgstr "Errore nel invio del report, si prega di controllare di nuovo!"
+
+#: core/helper/functions.php:97
+msgid "Element not existed!"
+msgstr "Elemento non esiste!"
+
+#: core/helper/functions.php:98
+msgid "Take Style"
+msgstr "Scegli stile"
+
+#: core/helper/functions.php:99 templates/select-elements.php:52
+msgid "Select Element"
+msgstr "Seleziona elemento"
+
+#: core/helper/functions.php:572 core/helper/functions.php:575
+msgid "View"
+msgstr "Visualizzazione"
+
+#: core/helper/functions.php:575
+msgid "Views"
+msgstr "Visualizzazioni"
+
+#: core/helper/functions.php:652 templates/page-builder.php:88
+msgid "Save"
+msgstr "Salva"
+
+#: core/helper/functions.php:653 core/product/tmpl/addons.php:100
+#: core/product/tmpl/addons.php:114 templates/page-builder.php:89
+msgid "Cancel"
+msgstr "Annulla "
+
+#: core/helper/functions.php:654
+msgid "Delete Element"
+msgstr "Elimina elemento"
+
+#: core/helper/functions.php:840
+msgid "Widget"
+msgstr "Widget"
+
+#: core/helper/functions.php:915
+msgid "Edit element"
+msgstr "Modifica elemento"
+
+#: core/helper/functions.php:916
+msgid "Duplicate element"
+msgstr "Duplica elemento"
+
+#: core/helper/functions.php:918
+msgid "Delete element"
+msgstr "Elimina elemento"
+
+#: core/helper/html/button-group.php:24
+msgid "Convert to"
+msgstr "Converti in"
+
+#: core/helper/html/group-table.php:44 core/helper/html/group.php:40
+#: core/helper/html/group.php:81 core/shortcode/element.php:240
+#: core/shortcode/element.php:250
+msgid "Item"
+msgstr "Voce"
+
+#: core/helper/html/group-table.php:87 core/helper/html/group.php:74
+msgid "Items"
+msgstr "Voci"
+
+#: core/helper/html/group.php:23 core/helper/html/list-extra.php:27
+msgid "Add Item"
+msgstr "Aggiungi Voce"
+
+#: core/helper/html/margin.php:45 core/helper/type.php:220
+#: shortcodes/tab/tab.php:139
+msgid "Top"
+msgstr "Top"
+
+#: core/helper/html/margin.php:64 core/helper/type.php:207
+#: core/helper/type.php:222 shortcodes/audio/audio.php:244
+#: shortcodes/video/video.php:356 core/helper/type.php:274
+#: core/helper/type.php:288 shortcodes/tab/tab.php:141
+msgid "Left"
+msgstr "Sinistra"
+
+#: core/helper/html/margin.php:85 core/helper/type.php:221
+#: shortcodes/tab/tab.php:140
+msgid "Bottom"
+msgstr "Sotto"
+
+#: core/helper/html/margin.php:105 core/helper/type.php:208
+#: core/helper/type.php:223 shortcodes/audio/audio.php:245
+#: shortcodes/video/video.php:357 core/helper/type.php:276
+#: core/helper/type.php:290 shortcodes/tab/tab.php:142
+msgid "Right"
+msgstr "Destra"
+
+#: core/helper/html/preview.php:18
+msgid "Hide Live Preview"
+msgstr "Nascondi Visualizzazione Anteprima"
+
+#: core/helper/html/preview.php:19
+msgid "Show Live Preview"
+msgstr "Mostra Anteprima"
+
+#: core/helper/html/preview.php:21
+msgid "Preview"
+msgstr "Anteprima"
+
+#: core/helper/html/table.php:78 core/helper/html/table.php:93
+msgid "Delete"
+msgstr "Elimina"
+
+#: core/helper/html/table.php:101 templates/page-builder.php:163
+msgid "Add Row"
+msgstr "Aggiungi riga"
+
+#: core/helper/html/table.php:102
+msgid "Add Column"
+msgstr "Aggiungi colonna"
+
+#: core/helper/layout.php:176
+msgid "WR Templates"
+msgstr "WR Templates/ temi"
+
+#: core/helper/layout.php:191 core/helper/layout.php:201
+msgid "Your Templates"
+msgstr "Tuoi template/temi"
+
+#: core/helper/shortcode.php:42 shortcodes/main.php:36
+#: templates/select-elements.php:69 templates/select-elements.php:80
+msgid "Standard Elements"
+msgstr "Elementi standart"
+
+#: core/helper/shortcode.php:878
+msgid ""
+"You have not activated <b>\"WR Free Shortcodes\"</b> plugin. Please activate"
+" it before using PageBuilder."
+msgstr "Non hai attivato <b> \"WR Shortcodes \" </ b> plugin. Si prega di attivare prima di utilizzare PageBuilder"
+
+#: core/helper/type.php:29
+msgid "Hybrid"
+msgstr "Ibrido "
+
+#: core/helper/type.php:30
+msgid "Roadmap"
+msgstr "Mappa stradale"
+
+#: core/helper/type.php:31
+msgid "Satellite"
+msgstr "Satellite"
+
+#: core/helper/type.php:32
+msgid "Terrain"
+msgstr "Terreno"
+
+#: core/helper/type.php:67 core/helper/type.php:81
+msgid "No Styling"
+msgstr "No Styling"
+
+#: core/helper/type.php:68
+msgid "Rounded"
+msgstr "Rotondo"
+
+#: core/helper/type.php:69 core/helper/type.php:249
+#: shortcodes/progresscircle/progresscircle.php:97
+msgid "Circle"
+msgstr "Cerchio"
+
+#: core/helper/type.php:70 core/helper/type.php:82
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: core/helper/type.php:93 core/helper/type.php:161 core/helper/type.php:178
+#: shortcodes/table/table.php:97
+msgid "Default"
+msgstr "Default"
+
+#: core/helper/type.php:94
+msgid "Active (Grey)"
+msgstr "Attivo (Griggio)"
+
+#: core/helper/type.php:95 core/helper/type.php:124 core/helper/type.php:164
+msgid "Success (Green)"
+msgstr "Successo (Verde)"
+
+#: core/helper/type.php:96 core/helper/type.php:125 core/helper/type.php:165
+msgid "Warning (Orange)"
+msgstr "Attenzione (Arancione)"
+
+#: core/helper/type.php:97 core/helper/type.php:126 core/helper/type.php:166
+msgid "Danger (Red)"
+msgstr "Pericolo (Rosso)"
+
+#: core/helper/type.php:108
+msgid "Warning"
+msgstr "Attenzione"
+
+#: core/helper/type.php:109
+msgid "Success"
+msgstr "Successo"
+
+#: core/helper/type.php:110
+msgid "Info"
+msgstr "Info"
+
+#: core/helper/type.php:111
+msgid "Danger"
+msgstr "Pericolo"
+
+#: core/helper/type.php:122
+msgid "Primary (Blue)"
+msgstr "Primario (Blu)"
+
+#: core/helper/type.php:123 core/helper/type.php:163
+msgid "Info (Light Blue)"
+msgstr "Info ( Leggero Blu)"
+
+#: core/helper/type.php:137
+msgid "Multiple bars"
+msgstr "Più barre"
+
+#: core/helper/type.php:138
+msgid "Stacked"
+msgstr "Staccato "
+
+#: core/helper/type.php:149 core/helper/type.php:314
+msgid "Solid"
+msgstr "Solido"
+
+#: core/helper/type.php:150 shortcodes/table/table.php:97
+msgid "Striped"
+msgstr "A strisce"
+
+#: core/helper/type.php:162
+msgid "Primary (Dark Blue)"
+msgstr "Primario (Blu Scuro)"
+
+#: core/helper/type.php:167
+msgid "Link"
+msgstr "Link"
+
+#: core/helper/type.php:179
+msgid "Mini"
+msgstr "Mini"
+
+#: core/helper/type.php:180
+msgid "Small"
+msgstr "Piccolo"
+
+#: core/helper/type.php:181
+msgid "Large"
+msgstr "Grande"
+
+#: core/helper/type.php:182 shortcodes/heading/heading.php:114
+#: shortcodes/list/list.php:191 shortcodes/promobox/promobox.php:230
+msgid "Custom"
+msgstr "Personalizza "
+
+#: core/helper/type.php:193
+msgid "Current Tab"
+msgstr "Scheda corrente"
+
+#: core/helper/type.php:194
+msgid "New Tab"
+msgstr "Nuova scheda"
+
+#: core/helper/type.php:195
+msgid "New Window"
+msgstr "Nuova finestra"
+
+#: core/helper/type.php:196
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: core/helper/type.php:209 shortcodes/audio/audio.php:246
+#: shortcodes/video/video.php:358 core/helper/type.php:275
+#: core/helper/type.php:289
+msgid "Center"
+msgstr "Centrale"
+
+#: core/helper/type.php:250
+msgid "Square"
+msgstr "Quadrato "
+
+#: core/helper/type.php:261 shortcodes/heading/heading.php:315
+msgid "Standard fonts"
+msgstr "Standard fonts"
+
+#: core/helper/type.php:262 shortcodes/heading/heading.php:317
+msgid "Google fonts"
+msgstr "Google fonts"
+
+#: core/helper/type.php:273 core/helper/type.php:332
+#: shortcodes/heading/heading.php:114 shortcodes/list/list.php:191
+#: shortcodes/promobox/promobox.php:230
+msgid "Inherit"
+msgstr "Inherit"
+
+#: core/helper/type.php:287 shortcodes/audio/audio.php:243
+#: shortcodes/video/video.php:355
+msgid "No Alignment"
+msgstr "Nessun effetto"
+
+#: core/helper/type.php:315
+msgid "Dotted"
+msgstr "Punteggiato"
+
+#: core/helper/type.php:316
+msgid "Dashed"
+msgstr "Tratteggiato"
+
+#: core/helper/type.php:317
+msgid "Double"
+msgstr "Doppio"
+
+#: core/helper/type.php:318
+msgid "Groove"
+msgstr "Scanalatura"
+
+#: core/helper/type.php:319
+msgid "Ridge"
+msgstr "Rigido"
+
+#: core/helper/type.php:320
+msgid "Inset"
+msgstr "inserire"
+
+#: core/helper/type.php:321
+msgid "Outset"
+msgstr "Outset"
+
+#: core/helper/type.php:333
+msgid "Italic"
+msgstr "Italic"
+
+#: core/helper/type.php:334
+msgid "Normal"
+msgstr "Normale"
+
+#: core/helper/type.php:335
+msgid "Bold"
+msgstr "Audace"
+
+#: core/helper/type.php:380
+msgid "Appearing Animation"
+msgstr "Apparizione della Animazione"
+
+#: core/helper/type.php:386
+msgid "Slide in from Top"
+msgstr "Slide da Su"
+
+#: core/helper/type.php:387
+msgid "Slide in from Right"
+msgstr "Slide da Destra"
+
+#: core/helper/type.php:388
+msgid "Slide in from Bottom"
+msgstr "Slide da Giù"
+
+#: core/helper/type.php:389
+msgid "Slide in from Left"
+msgstr "Slide da Sinistra"
+
+#: core/helper/type.php:390
+msgid "Fade in"
+msgstr "Dissolvenza "
+
+#: core/helper/type.php:406
+msgid "Appearing Animation Speed"
+msgstr "Velocità di animazione"
+
+#: core/helper/type.php:412
+msgid "Slow"
+msgstr "Lenta"
+
+#: core/helper/type.php:413
+msgid "Medium"
+msgstr "Media"
+
+#: core/helper/type.php:414
+msgid "Fast"
+msgstr "Veloce"
+
+#: core/helper/type.php:433 core/helper/type.php:491 core/helper/type.php:654
+#: core/helper/type.php:787 core/helper/type.php:1211
+msgid "Root"
+msgstr "Radice"
+
+#: core/helper/type.php:443 core/helper/type.php:527 core/helper/type.php:551
+#: core/helper/type.php:563 core/helper/type.php:807 core/helper/type.php:1217
+msgid "( no title )"
+msgstr "(senza titolo)"
+
+#: core/helper/type.php:539 core/helper/type.php:672
+msgid "( no name )"
+msgstr "(senza nome)"
+
+#: core/helper/type.php:584
+msgid "No Action"
+msgstr "Nessuna Azione"
+
+#: core/helper/type.php:585
+msgid "Go to URL"
+msgstr "Segui url"
+
+#: core/helper/type.php:586
+msgid "Go to Single Entry"
+msgstr "Vai a singolo ingresso"
+
+#: core/helper/type.php:589
+msgid "Go to Taxonomy Overview Page"
+msgstr "Vai alla tassonomia pagina Panoramica"
+
+#: core/helper/type.php:614
+msgid "Single Entries"
+msgstr "Singolo "
+
+#: core/helper/type.php:617
+msgid "Taxonomy Overview Page"
+msgstr "Tassonomia pagina panoramica"
+
+#: core/helper/type.php:631
+msgid "Show Large Image"
+msgstr "Mostra immagine grande"
+
+#: core/helper/type.php:864
+msgid "Product Type"
+msgstr "Tipo di prodotto"
+
+#: core/helper/type.php:1085 core/helper/type.php:1090
+#: shortcodes/audio/audio.php:547 shortcodes/audio/audio.php:582
+#: shortcodes/googlemap/item/googlemap.php:40
+#: shortcodes/googlemap/item/googlemap.php:45
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:65
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:71
+#: shortcodes/pricing-table/item/pricing-table-attr.php:64
+#: shortcodes/pricing-table/item/pricing-table-attr.php:70
+#: shortcodes/pricing-table/item/pricing-table.php:46
+#: shortcodes/pricing-table/item/pricing-table.php:52
+#: shortcodes/pricing-table/pricing-table.php:152
+#: shortcodes/promobox/promobox.php:214
+#: shortcodes/testimonial/item/testimonial.php:39
+#: shortcodes/video/video.php:688 shortcodes/video/video.php:709
+msgid "Title"
+msgstr "Titolo"
+
+#: core/helper/type.php:1086 core/helper/type.php:1091
+msgid "Comment Count"
+msgstr "Contatore commenti"
+
+#: core/helper/type.php:1087 core/helper/type.php:1092
+msgid "Date"
+msgstr "Data"
+
+#: core/helper/type.php:1136
+msgid "Name"
+msgstr "Nome"
+
+#: core/helper/type.php:1137 shortcodes/audio/audio.php:514
+#: shortcodes/audio/audio.php:587 shortcodes/googlemap/item/googlemap.php:48
+#: shortcodes/googlemap/item/googlemap.php:53
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:83
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:88
+#: shortcodes/pricing-table/item/pricing-table-attr.php:73
+#: shortcodes/pricing-table/item/pricing-table-attr.php:78
+#: shortcodes/pricing-table/item/pricing-table.php:55
+#: shortcodes/pricing-table/pricing-table.php:153
+#: shortcodes/progresscircle/progresscircle.php:100
+#: shortcodes/video/video.php:692 shortcodes/video/video.php:713
+#: templates/report-bug.php:18
+msgid "Description"
+msgstr "Descrizione"
+
+#: core/helper/type.php:1138
+msgid "Slug"
+msgstr "Slug"
+
+#: core/helper/type.php:1139
+msgid "Count"
+msgstr "Contare"
+
+#: core/helper/type.php:1158
+msgid " - No ordering - "
+msgstr "-nessun ordinamento-"
+
+#: core/helper/type.php:1174
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: core/helper/type.php:1175
+msgid "Descending"
+msgstr "Discendente"
+
+#: core/helper/type.php:1257
+msgid "Free text"
+msgstr "Testo libero"
+
+#: core/helper/type.php:1258
+msgid "Yes / No"
+msgstr "Si / No"
+
+#: core/objects/modal.php:261 core/shortcode/element.php:165
+#: shortcodes/audio/audio.php:250 shortcodes/button/button.php:155
+#: shortcodes/buttonbar/buttonbar.php:107
+#: shortcodes/googlemap/googlemap.php:124
+#: shortcodes/googlemap/googlemap.php:131 shortcodes/heading/heading.php:100
+#: shortcodes/image/image.php:176
+#: shortcodes/progresscircle/progresscircle.php:193
+#: shortcodes/text/text.php:88 shortcodes/video/video.php:362
+msgid "Margin"
+msgstr "Margine"
+
+#: core/objects/modal.php:388
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/objects/modal.php:393 core/product/plugin.php:400
+msgid "Done!"
+msgstr "Fatto!"
+
+#: core/objects/modal.php:393
+msgid "Copy to Clipboard"
+msgstr "Copia nella clipboard"
+
+#: core/objects/widget.php:29
+msgid "Presentation of any PageBuilder element"
+msgstr "Presentazione di qualsiasi elemento PageBuilder"
+
+#: core/objects/widget.php:31 core/objects/widget.php:79
+msgid "PageBuilder Element"
+msgstr "Elementi PageBuilder"
+
+#: core/objects/widget.php:140
+msgid "No elements have been created yet!  "
+msgstr "Nessun elemento è stato ancora creato!"
+
+#: core/objects/widget.php:145
+msgid "Element"
+msgstr "Elemento"
+
+#: core/product/addons.php:66
+msgid "Cannot get addons information for current product."
+msgstr "Impossibile ottenere informazioni  per il prodotto corrente."
+
+#: core/product/addons.php:90
+msgid "Missing addon to be installed."
+msgstr "Addon mancanti o da installare."
+
+#: core/product/addons.php:97
+msgid "The requested action is invalid."
+msgstr "Azione richiesta non è valida."
+
+#: core/product/addons.php:134
+msgid ""
+"You do not have sufficient permissions to either add or delete plugins for "
+"this site."
+msgstr "Non si dispone di autorizzazioni sufficienti per aggiungere o eliminare i plugin per questo sito."
+
+#: core/product/addons.php:218
+msgid ""
+"Cannot install %1$s v%2$s.\n"
+"This version requires %3$s v%4$s while you are using %5$s v%6$s."
+msgstr "Impossibile installare %1$s v%2$s.\nQuesta è la versione richiesta %3$s v%4$s mentre tu usi %5$s v%6$s."
+
+#: core/product/addons.php:359
+msgid "Invalid Parameters! Can not verify your product information."
+msgstr "Parametri non validi! Non è possibile verificare i dati del prodotto"
+
+#: core/product/addons.php:363
+msgid "Invalid username or password."
+msgstr "Nome utente o password non validi."
+
+#: core/product/addons.php:367
+msgid ""
+"We could not find the product in your order list. Seems like you did not "
+"purchase it yet."
+msgstr "Non siamo riusciti a trovare il prodotto nella vostra lista  d'ordine. Sembra che non hai acquistato ancora."
+
+#: core/product/addons.php:371
+msgid "Requested file is not found on server."
+msgstr "File richiesto non è stato trovato sul server."
+
+#: core/product/addons.php:376
+msgid "Cannot connect to WooRockets.com server."
+msgstr "Impossibile connettersi al server WooRockets.com"
+
+#: core/product/addons.php:389
+msgid "Cannot store add-on package to local file system."
+msgstr "Impossibile memorizzare pacchetto aggiuntivo per file system locale."
+
+#: core/product/addons.php:412
+msgid ""
+"You do not have sufficient permissions to activate plugins for this site."
+msgstr "Non si dispone di autorizzazioni sufficienti per attivare i plugin per questo sito"
+
+#: core/product/addons.php:422
+msgid "Cannot detect plugin to activate."
+msgstr "Impossibile rilevare il plugin da attivare."
+
+#: core/product/plugin.php:61
+msgid "WR PageBuilder - Settings"
+msgstr "WR PageBuilder - Impostazioni"
+
+#: core/product/plugin.php:72 core/product/tmpl/addons.php:13
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: core/product/plugin.php:80
+msgid "WR PageBuilder - Add-ons"
+msgstr "WR PageBuilder - Add-ons"
+
+#: core/product/plugin.php:144
+msgid "Missing post ID."
+msgstr "Manca post ID."
+
+#: core/product/plugin.php:151
+msgid "Missing data converter."
+msgstr "Manca convertitore di dati."
+
+#: core/product/plugin.php:161
+msgid "Data has been successfully converted!"
+msgstr "I dati sono stati convertito con successo!"
+
+#: core/product/plugin.php:163
+msgid "Data has been successfully converted and published!"
+msgstr "I dati sono stati convertiti  e pubblicati con successo!"
+
+#: core/product/plugin.php:225
+msgid "Enable PageBuilder for..."
+msgstr "Attiva PageBuilder per..."
+
+#: core/product/plugin.php:229
+msgid "Enable Caching"
+msgstr "Attiva Caching"
+
+#: core/product/plugin.php:233
+msgid "Load Bootstrap Assets"
+msgstr "Carica Assets Bootstrap"
+
+#: core/product/plugin.php:239
+msgid "Enable full mode"
+msgstr "Attiva modalità completa"
+
+#: core/product/plugin.php:374
+msgid ""
+"Uncheck post types where you do not want WR PageBuilder to be activated."
+msgstr "Deselezionare i tipi di post in cui non si desidera  attivare WR PageBuilder."
+
+#: core/product/plugin.php:392 core/product/plugin.php:420
+#: core/shortcode/element.php:101 core/shortcode/layout/row.php:180
+#: core/shortcode/layout/row.php:208 shortcodes/accordion/accordion.php:128
+#: shortcodes/accordion/accordion.php:136 shortcodes/alert/alert.php:94
+#: shortcodes/alert/alert.php:117 shortcodes/audio/audio.php:168
+#: shortcodes/audio/audio.php:229 shortcodes/carousel/carousel.php:137
+#: shortcodes/carousel/carousel.php:145 shortcodes/carousel/carousel.php:153
+#: shortcodes/carousel/carousel.php:178
+#: shortcodes/googlemap/item/googlemap.php:103
+#: shortcodes/heading/heading.php:178 shortcodes/list/list.php:117
+#: shortcodes/list/list.php:183
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:150
+#: shortcodes/pricing-table/item/pricing-table.php:169
+#: shortcodes/progressbar/progressbar.php:114
+#: shortcodes/progressbar/progressbar.php:121
+#: shortcodes/progressbar/progressbar.php:128
+#: shortcodes/progresscircle/progresscircle.php:138
+#: shortcodes/progresscircle/progresscircle.php:190
+#: shortcodes/promobox/promobox.php:205 shortcodes/tab/tab.php:129
+#: shortcodes/text/text.php:102 shortcodes/tooltip/tooltip.php:99
+#: shortcodes/video/video.php:189 shortcodes/video/video.php:213
+#: shortcodes/video/video.php:224 shortcodes/video/video.php:235
+#: shortcodes/video/video.php:247 shortcodes/video/video.php:259
+#: shortcodes/video/video.php:271 shortcodes/video/video.php:296
+#: shortcodes/video/video.php:318 shortcodes/video/video.php:330
+msgid "Yes"
+msgstr "Si"
+
+#: core/product/plugin.php:396 core/product/plugin.php:424
+#: core/shortcode/element.php:101 core/shortcode/layout/row.php:180
+#: core/shortcode/layout/row.php:208 shortcodes/accordion/accordion.php:128
+#: shortcodes/accordion/accordion.php:136 shortcodes/alert/alert.php:94
+#: shortcodes/alert/alert.php:117 shortcodes/audio/audio.php:169
+#: shortcodes/audio/audio.php:230 shortcodes/carousel/carousel.php:137
+#: shortcodes/carousel/carousel.php:145 shortcodes/carousel/carousel.php:153
+#: shortcodes/carousel/carousel.php:178
+#: shortcodes/googlemap/item/googlemap.php:103
+#: shortcodes/heading/heading.php:178 shortcodes/list/list.php:117
+#: shortcodes/list/list.php:183
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:150
+#: shortcodes/pricing-table/item/pricing-table.php:169
+#: shortcodes/progressbar/progressbar.php:114
+#: shortcodes/progressbar/progressbar.php:121
+#: shortcodes/progressbar/progressbar.php:128
+#: shortcodes/progresscircle/progresscircle.php:138
+#: shortcodes/progresscircle/progresscircle.php:190
+#: shortcodes/promobox/promobox.php:205 shortcodes/tab/tab.php:129
+#: shortcodes/text/text.php:102 shortcodes/tooltip/tooltip.php:99
+#: shortcodes/video/video.php:190 shortcodes/video/video.php:214
+#: shortcodes/video/video.php:225 shortcodes/video/video.php:236
+#: shortcodes/video/video.php:248 shortcodes/video/video.php:260
+#: shortcodes/video/video.php:272 shortcodes/video/video.php:319
+#: shortcodes/video/video.php:331
+msgid "No"
+msgstr "No"
+
+#: core/product/plugin.php:401
+msgid "Clear cache"
+msgstr "Cancella cache"
+
+#: core/product/plugin.php:407
+msgid "Select 'Yes' if you want to cache CSS and JS files of WR PageBuilder"
+msgstr "Selezionare 'Sì' se si desidera memorizzare nella cache CSS e JS file di WR PageBuilder"
+
+#: core/product/plugin.php:428
+msgid ""
+"Full Mode is on experiencing period, it could affect to your Post/Page "
+"editing performance."
+msgstr "Modalità completa nel periodo di esperienza, potrebbe influenzare  prestazioni articoli / pagine di editing Post."
+
+#: core/product/plugin.php:445
+msgid "JS"
+msgstr "JS"
+
+#: core/product/plugin.php:450
+msgid "CSS"
+msgstr "CSS"
+
+#: core/product/plugin.php:453
+msgid ""
+"You should choose NOT to load Bootstrap CSS / JS if your theme or some other"
+" plugin installed on your website already loaded it."
+msgstr "Si consiglia di scegliere non  caricare Bootstrap CSS / JS se il vostro tema o qualche altro plugin installato sul vostro sito web li ha già caricati."
+
+#: core/product/tmpl/addons.php:15
+msgid "Extend %s functionality with following add-ons"
+msgstr "Estendi le funzionalità %s con i seguenti add-on"
+
+#: core/product/tmpl/addons.php:25 core/product/tmpl/addons.php:118
+msgid "Incompatible"
+msgstr "Incompatibile "
+
+#: core/product/tmpl/addons.php:27 core/product/tmpl/addons.php:117
+msgid "Installed"
+msgstr "Installato"
+
+#: core/product/tmpl/addons.php:36 core/product/tmpl/addons.php:99
+#: core/product/tmpl/addons.php:115
+msgid "Install"
+msgstr "Installa "
+
+#: core/product/tmpl/addons.php:40
+msgid "Update"
+msgstr "Aggiorna"
+
+#: core/product/tmpl/addons.php:44 core/product/tmpl/addons.php:116
+msgid "Uninstall"
+msgstr "Disinstalla "
+
+#: core/product/tmpl/addons.php:49
+msgid "More Info"
+msgstr "Più info"
+
+#: core/product/tmpl/addons.php:65
+msgid "WooRockets Customer Account"
+msgstr "WooRockets personallizazione dell' Account"
+
+#: core/product/tmpl/addons.php:75 shortcodes/audio/audio.php:511
+#: shortcodes/audio/audio.php:583
+msgid "Username"
+msgstr "Nome utente"
+
+#: core/product/tmpl/addons.php:81
+msgid "Password"
+msgstr "Password"
+
+#: core/product/tmpl/addons.php:91
+msgid "Remember Me"
+msgstr "Ricorda "
+
+#: core/product/tmpl/addons.php:119
+msgid "Are you sure you want to uninstall %s?"
+msgstr "Sei sicuro di voler disinstallare %s?"
+
+#: core/product/tmpl/addons.php:120
+msgid "Verifying..."
+msgstr "Verifica in corso..."
+
+#: core/product/tmpl/addons.php:121
+msgid "Installing..."
+msgstr "Installazione in corso..."
+
+#: core/product/tmpl/addons.php:122
+msgid "Updating..."
+msgstr "Aggiornamento in corso..."
+
+#: core/product/tmpl/addons.php:123
+msgid "Uninstalling..."
+msgstr "Disinstallazione in corso..."
+
+#: core/shortcode/element.php:97
+msgid "Disable"
+msgstr "Disattiva "
+
+#: core/shortcode/element.php:108
+msgid "Advanced"
+msgstr "Avanzato "
+
+#: core/shortcode/element.php:113
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: core/shortcode/element.php:117 core/shortcode/layout/row.php:262
+msgid "Custom CSS Class for the wrapper div of this element"
+msgstr "Personalizza Classe  Css per fascia div di questo elemento"
+
+#: core/shortcode/element.php:120
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: core/shortcode/element.php:124 core/shortcode/layout/row.php:269
+msgid "Custom CSS ID for the wrapper div of this element"
+msgstr "Personalizza CSS Id di questo elemento per tutta fascia simile"
+
+#: core/shortcode/element.php:130
+msgid "Copy Style from..."
+msgstr "Copia stile da..."
+
+#: core/shortcode/element.php:133
+msgid "Select element"
+msgstr "Seleziona elemento"
+
+#: core/shortcode/element.php:134
+msgid "0"
+msgstr "0"
+
+#: core/shortcode/element.php:135
+msgid "Copy Styling prameters from other same type element"
+msgstr "Copia parametri di Stile da altro elemento dello stesso tipo"
+
+#: core/shortcode/element.php:143
+msgid "Element Title"
+msgstr "Titolo dell'elemento"
+
+#: core/shortcode/element.php:149
+msgid "Set title for current element for identifying easily"
+msgstr "Imposta titolo per elemento corrente per identificarlo facilmente"
+
+#: core/shortcode/element.php:175 shortcodes/audio/audio.php:257
+#: shortcodes/button/button.php:164 shortcodes/buttonbar/buttonbar.php:116
+#: shortcodes/heading/heading.php:107 shortcodes/image/image.php:183
+#: shortcodes/progresscircle/progresscircle.php:200
+#: shortcodes/text/text.php:95 shortcodes/video/video.php:369
+msgid "External spacing with other elements"
+msgstr "Spazio esterno con altri elementi"
+
+#: core/shortcode/layout/column.php:59
+msgid "Delete column"
+msgstr "Elimina colona "
+
+#: core/shortcode/layout/column.php:62 templates/select-elements.php:127
+msgid "Add Element"
+msgstr "Aggiungi elemento "
+
+#: core/shortcode/layout/row.php:62
+#: shortcodes/buttonbar/item/buttonbar.php:130
+#: shortcodes/table/item/table.php:51
+msgid "Width"
+msgstr "Larghezza"
+
+#: core/shortcode/layout/row.php:66
+msgid "Boxed"
+msgstr "Boxed"
+
+#: core/shortcode/layout/row.php:66 core/shortcode/layout/row.php:141
+#: core/shortcode/layout/row.php:161 templates/page-builder.php:43
+msgid "Full"
+msgstr "Completo"
+
+#: core/shortcode/layout/row.php:69
+msgid "Background"
+msgstr "Sfondo"
+
+#: core/shortcode/layout/row.php:76 core/shortcode/layout/row.php:85
+msgid "Solid Color"
+msgstr "Colore solido"
+
+#: core/shortcode/layout/row.php:77 core/shortcode/layout/row.php:105
+msgid "Gradient Color"
+msgstr "Colore graduale"
+
+#: core/shortcode/layout/row.php:78 core/shortcode/layout/row.php:128
+msgid "Pattern"
+msgstr "Modello"
+
+#: core/shortcode/layout/row.php:79 core/shortcode/layout/row.php:148
+#: shortcodes/googlemap/item/googlemap.php:64
+#: shortcodes/googlemap/item/googlemap.php:69 shortcodes/image/image.php:39
+#: shortcodes/pricing-table/item/pricing-table.php:63
+#: shortcodes/pricing-table/pricing-table.php:154
+msgid "Image"
+msgstr "Immagine"
+
+#: core/shortcode/layout/row.php:80 shortcodes/video/video.php:41
+msgid "Video"
+msgstr "Video"
+
+#: core/shortcode/layout/row.php:120
+msgid "Gradient Direction"
+msgstr "Direzione graduale"
+
+#: core/shortcode/layout/row.php:124 core/shortcode/layout/row.php:142
+#: core/shortcode/layout/row.php:162
+msgid "Vertical"
+msgstr "Verticale "
+
+#: core/shortcode/layout/row.php:124 core/shortcode/layout/row.php:143
+#: core/shortcode/layout/row.php:163
+msgid "Horizontal"
+msgstr "Orizzontale "
+
+#: core/shortcode/layout/row.php:136 core/shortcode/layout/row.php:156
+msgid "Repeat"
+msgstr "Ripeti "
+
+#: core/shortcode/layout/row.php:168
+msgid "Video url"
+msgstr "Video url"
+
+#: core/shortcode/layout/row.php:176
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: core/shortcode/layout/row.php:184
+msgid "Position"
+msgstr "Posizione "
+
+#: core/shortcode/layout/row.php:204
+msgid "Enable Paralax"
+msgstr "Abilita Paralax"
+
+#: core/shortcode/layout/row.php:212 shortcodes/divider/divider.php:69
+msgid "Border"
+msgstr "Bordo"
+
+#: core/shortcode/layout/row.php:242
+msgid "Padding"
+msgstr "Padding"
+
+#: core/shortcode/layout/row.php:258
+msgid "Class"
+msgstr "Class"
+
+#: core/shortcode/layout/row.php:265
+msgid "ID"
+msgstr "ID"
+
+#: core/shortcode/layout/row.php:302
+msgid "Move Up"
+msgstr "Sposta Su"
+
+#: core/shortcode/layout/row.php:303
+msgid "Move Down"
+msgstr "Sposta Giù"
+
+#: core/shortcode/layout/row.php:309
+msgid "Add column"
+msgstr "Aggiungi colona "
+
+#: core/shortcode/layout/row.php:311
+msgid "Delete row"
+msgstr "Cancella riga"
+
+#: core/utils/plugin.php:87
+msgid "No, take me back"
+msgstr "No, torna indietro"
+
+#: core/utils/plugin.php:110
+msgid ""
+"After deactivating, all content built with PageBuilder will be parsed to "
+"plain HTML code. Are you sure you want to deactivate PageBuilder plugin?"
+msgstr "Dopo la disattivazione, tutti i contenuti costruiti con PageBuilder sarano trasformati  in codice HTML semplice. Sei sicuro di voler disattivare il plugin  PageBuilder?"
+
+#: core/utils/plugin.php:116
+msgid "Yes, deactivate plugin"
+msgstr "Si ,disattiva plugin!"
+
+#: core/utils/plugin.php:122
+msgid ""
+"Or if you want to deactivate without parsing 'content built with "
+"PageBuilder' to HTML code, click on the button below"
+msgstr "Oppure, se si desidera disattivare senza perdere il contenuto costruito con PageBuilder' di codice HTML, cliccare sul pulsante qui sotto"
+
+#: core/utils/plugin.php:129
+msgid "Deactivate without parsing data"
+msgstr "Disattivare senza analisi dei dati"
+
+#: core/utils/plugin.php:136
+msgid "WordPress &rsaquo; Confirmation"
+msgstr "WordPress &rsaquo; Conferma"
+
+#: core/utils/plugin.php:147
+msgid "Nonce is invalid!"
+msgstr "Nonce non è valido!"
+
+#: shortcodes/accordion/accordion.php:38 shortcodes/carousel/carousel.php:81
+#: shortcodes/list/list.php:84 shortcodes/tab/tab.php:81
+msgid "Accordion"
+msgstr "Accordion"
+
+#: shortcodes/accordion/accordion.php:39 shortcodes/alert/alert.php:39
+#: shortcodes/buttonbar/buttonbar.php:39 shortcodes/carousel/carousel.php:33
+#: shortcodes/heading/heading.php:38 shortcodes/list/list.php:39
+#: shortcodes/progressbar/progressbar.php:39
+#: shortcodes/promobox/promobox.php:39 shortcodes/tab/tab.php:40
+#: shortcodes/table/table.php:39 shortcodes/text/text.php:39
+#: shortcodes/tooltip/tooltip.php:40
+msgid "Typography"
+msgstr "Tipografia"
+
+#: shortcodes/accordion/accordion.php:42
+msgid "Vertically stacked and tabbed content"
+msgstr "Verticalmente accatastati e schede contenuti"
+
+#: shortcodes/accordion/accordion.php:81 shortcodes/carousel/carousel.php:76
+#: shortcodes/list/list.php:79 shortcodes/tab/tab.php:39
+msgid "Tab"
+msgstr "Etichetta"
+
+#: shortcodes/accordion/accordion.php:86 shortcodes/carousel/carousel.php:32
+#: shortcodes/list/list.php:89 shortcodes/tab/tab.php:86
+msgid "Carousel"
+msgstr "Carosello"
+
+#: shortcodes/accordion/accordion.php:91 shortcodes/carousel/carousel.php:86
+#: shortcodes/list/list.php:38 shortcodes/tab/tab.php:91
+msgid "List"
+msgstr "Lista"
+
+#: shortcodes/accordion/accordion.php:115
+msgid "Initial Open"
+msgstr "Aprire iniziale"
+
+#: shortcodes/accordion/accordion.php:121
+msgid "Set which item will be opened first"
+msgstr "Seleziona che punto sarà aperto prima"
+
+#: shortcodes/accordion/accordion.php:124
+msgid "Allow Multiple Opening"
+msgstr "Consenti apertura multipla"
+
+#: shortcodes/accordion/accordion.php:129
+msgid "Keep previous item opened when clicking on another one"
+msgstr "Mantenere voce precedente aperta quando si clicca su un altro"
+
+#: shortcodes/accordion/accordion.php:132
+msgid "Enable Filter"
+msgstr "Attiva filtro"
+
+#: shortcodes/accordion/accordion.php:137
+msgid "Filter based on items' tags name. Please set tag for item first."
+msgstr "Filtro basato sul nome tag degli oggetti. Si prega di impostare prima tag per oggetto."
+
+#: shortcodes/accordion/item/accordion.php:32
+msgid "Accordion Item"
+msgstr "Voce"
+
+#: shortcodes/accordion/item/accordion.php:47
+#: shortcodes/carousel/item/carousel.php:54 shortcodes/heading/heading.php:37
+#: shortcodes/list/item/list.php:41 shortcodes/tab/item/tab.php:46
+msgid "Heading"
+msgstr "Titolo"
+
+#: shortcodes/accordion/item/accordion.php:55
+#: shortcodes/carousel/item/carousel.php:62 shortcodes/list/item/list.php:49
+#: shortcodes/tab/item/tab.php:54
+msgid "Body"
+msgstr "Body"
+
+#: shortcodes/accordion/item/accordion.php:63 shortcodes/button/button.php:134
+#: shortcodes/buttonbar/item/buttonbar.php:103
+#: shortcodes/carousel/item/carousel.php:70 shortcodes/list/item/list.php:57
+#: shortcodes/progressbar/item/progressbar.php:67
+#: shortcodes/progresscircle/progresscircle.php:179
+#: shortcodes/tab/item/tab.php:62
+msgid "Icon"
+msgstr "Icona"
+
+#: shortcodes/accordion/item/accordion.php:71
+#: shortcodes/table/item/table.php:73
+msgid "Tag Name"
+msgstr "Nome Tag"
+
+#: shortcodes/accordion/item/accordion.php:75
+msgid "Used for items filtering"
+msgstr "Usato per gli elementi filtranti"
+
+#: shortcodes/alert/alert.php:38
+msgid "Alert"
+msgstr "Alerta"
+
+#: shortcodes/alert/alert.php:41
+msgid "Multiple Alert message box types"
+msgstr "Alerta Multipla tipo messaggio Box"
+
+#: shortcodes/alert/alert.php:69
+msgid "Alert Content"
+msgstr "Allerta contenuto"
+
+#: shortcodes/alert/alert.php:82
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:91
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:98
+#: shortcodes/pricing-table/item/pricing-table-attr.php:81
+#: shortcodes/pricing-table/item/pricing-table-attr.php:87
+msgid "Type"
+msgstr "Tipo"
+
+#: shortcodes/alert/alert.php:90 shortcodes/buttonbar/buttonbar.php:146
+#: shortcodes/list/list.php:113 shortcodes/progressbar/progressbar.php:110
+msgid "Show Icon"
+msgstr "Mostra Icone"
+
+#: shortcodes/alert/alert.php:98
+msgid "Icon Size"
+msgstr "Dimensione dell'icona"
+
+#: shortcodes/alert/alert.php:113
+msgid "Allow to close"
+msgstr "Consenti di chiudere"
+
+#: shortcodes/alert/alert.php:118
+msgid "Whether the customers can close the alert or not"
+msgstr "Se utenti possono chiudere l'avviso o meno"
+
+#: shortcodes/audio/audio.php:42
+msgid "Audio"
+msgstr "Audio"
+
+#: shortcodes/audio/audio.php:43 shortcodes/image/image.php:40
+#: shortcodes/video/video.php:42
+msgid "Media"
+msgstr "Media"
+
+#: shortcodes/audio/audio.php:45
+msgid "Local file or Soundcloud"
+msgstr "File locale o Soundcloud"
+
+#: shortcodes/audio/audio.php:89 shortcodes/video/video.php:91
+msgid "Local file"
+msgstr "File locale"
+
+#: shortcodes/audio/audio.php:90
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: shortcodes/audio/audio.php:99
+msgid "Audio link"
+msgstr "Audio link"
+
+#: shortcodes/audio/audio.php:104
+msgid "Insert your audio link from SoundCloud or local file"
+msgstr "Inserisci link dell'audio da SoundCloud o da file locale"
+
+#: shortcodes/audio/audio.php:109
+msgid "File URL"
+msgstr "File URL"
+
+#: shortcodes/audio/audio.php:124 shortcodes/audio/audio.php:185
+#: shortcodes/carousel/carousel.php:119 shortcodes/googlemap/googlemap.php:111
+#: shortcodes/progresscircle/progresscircle.php:158
+#: shortcodes/video/video.php:140 shortcodes/video/video.php:196
+#: shortcodes/video/video.php:301
+msgid "Dimension"
+msgstr "Dimensione "
+
+#: shortcodes/audio/audio.php:132 shortcodes/audio/audio.php:193
+#: shortcodes/carousel/carousel.php:130 shortcodes/video/video.php:148
+#: shortcodes/video/video.php:204 shortcodes/video/video.php:309
+msgid "Set width and height of element"
+msgstr "Seleziona larghezza e altezza dell'elemento"
+
+#: shortcodes/audio/audio.php:135 shortcodes/button/button.php:175
+#: shortcodes/buttonbar/item/buttonbar.php:150
+#: shortcodes/progressbar/item/progressbar.php:51
+msgid "Color"
+msgstr "Colore"
+
+#: shortcodes/audio/audio.php:141
+msgid "Select color for Play Button"
+msgstr "Seleziona colore per tasto Play "
+
+#: shortcodes/audio/audio.php:144 shortcodes/audio/audio.php:196
+#: shortcodes/googlemap/googlemap.php:153
+#: shortcodes/pricing-table/pricing-table.php:145
+#: shortcodes/promobox/promobox.php:209 shortcodes/video/video.php:151
+msgid "Elements"
+msgstr "Elementi"
+
+#: shortcodes/audio/audio.php:152
+msgid "Artwork"
+msgstr "Artwork"
+
+#: shortcodes/audio/audio.php:153
+msgid "Download Button"
+msgstr "Tasto Scarica"
+
+#: shortcodes/audio/audio.php:154
+msgid "Share Button"
+msgstr "Tasto condivisione"
+
+#: shortcodes/audio/audio.php:155
+msgid "BPM"
+msgstr "BPM"
+
+#: shortcodes/audio/audio.php:156
+msgid "Play Count"
+msgstr "Contatore di riproduzione "
+
+#: shortcodes/audio/audio.php:157
+msgid "Comments"
+msgstr "Commenti "
+
+#: shortcodes/audio/audio.php:159 shortcodes/audio/audio.php:211
+msgid "Elements to display on audio player"
+msgstr "Elementi da mostrare sul display dell'audio player "
+
+#: shortcodes/audio/audio.php:162 shortcodes/video/video.php:218
+#: shortcodes/video/video.php:312
+msgid "Auto Play"
+msgstr "Auto Play"
+
+#: shortcodes/audio/audio.php:171
+msgid "Auto play the audio"
+msgstr "Auto play  audio"
+
+#: shortcodes/audio/audio.php:174
+msgid "Start Track"
+msgstr "Start Track"
+
+#: shortcodes/audio/audio.php:179
+msgid "Choosing track to start playing"
+msgstr "La scelta di Track per iniziare a riprodurre "
+
+#: shortcodes/audio/audio.php:204 shortcodes/video/video.php:159
+msgid "Play/Pause Button"
+msgstr "Play/Pause Tasto"
+
+#: shortcodes/audio/audio.php:205 shortcodes/video/video.php:161
+msgid "Current Time"
+msgstr "Ora corrente "
+
+#: shortcodes/audio/audio.php:206 shortcodes/video/video.php:162
+msgid "Time Rail"
+msgstr "Tempo ferroviario"
+
+#: shortcodes/audio/audio.php:207 shortcodes/video/video.php:163
+msgid "Track Duration"
+msgstr "Durata Track"
+
+#: shortcodes/audio/audio.php:208 shortcodes/video/video.php:164
+msgid "Volume Button"
+msgstr "Tasto volume"
+
+#: shortcodes/audio/audio.php:209 shortcodes/video/video.php:165
+msgid "Volume Slider"
+msgstr "Volume Slider"
+
+#: shortcodes/audio/audio.php:214 shortcodes/video/video.php:171
+msgid "Start volume"
+msgstr "Start volume"
+
+#: shortcodes/audio/audio.php:223 shortcodes/video/video.php:183
+#: shortcodes/video/video.php:229 shortcodes/video/video.php:324
+msgid "Loop"
+msgstr "Loop"
+
+#: shortcodes/audio/audio.php:232 shortcodes/video/video.php:192
+#: shortcodes/video/video.php:238 shortcodes/video/video.php:333
+msgid "Whether to repeat playing or not"
+msgstr "La ripetizione della riproduzione o no"
+
+#: shortcodes/audio/audio.php:237 shortcodes/button/button.php:147
+#: shortcodes/buttonbar/buttonbar.php:100 shortcodes/carousel/carousel.php:111
+#: shortcodes/googlemap/googlemap.php:103 shortcodes/heading/heading.php:92
+#: shortcodes/image/image.php:168 shortcodes/qrcode/qrcode.php:103
+#: shortcodes/video/video.php:349
+msgid "Alignment"
+msgstr "Aliniamento "
+
+#: shortcodes/audio/audio.php:512
+#: shortcodes/testimonial/item/testimonial.php:91
+#: shortcodes/testimonial/testimonial.php:123
+msgid "Country"
+msgstr "Paese"
+
+#: shortcodes/audio/audio.php:513
+msgid "Full Name"
+msgstr "Nome completo "
+
+#: shortcodes/audio/audio.php:548
+msgid "Genre"
+msgstr "Genere"
+
+#: shortcodes/audio/audio.php:549
+msgid "User"
+msgstr "Utente "
+
+#: shortcodes/audio/audio.php:550
+msgid "Format"
+msgstr "Formato "
+
+#: shortcodes/audio/audio.php:551 shortcodes/audio/audio.php:584
+msgid "Duration"
+msgstr "Durata"
+
+#: shortcodes/button/button.php:39 shortcodes/button/button.php:46
+#: shortcodes/button/button.php:47 shortcodes/button/button.php:88
+#: shortcodes/pricing-table/pricing-table.php:157
+#: shortcodes/promobox/promobox.php:216
+msgid "Button"
+msgstr "Tasto"
+
+#: shortcodes/button/button.php:40 shortcodes/divider/divider.php:39
+#: shortcodes/googlemap/googlemap.php:38
+#: shortcodes/pricing-table/pricing-table.php:60
+#: shortcodes/progresscircle/progresscircle.php:42
+#: shortcodes/qrcode/qrcode.php:39 shortcodes/testimonial/testimonial.php:38
+msgid "Extra"
+msgstr "Extra"
+
+#: shortcodes/button/button.php:42
+msgid "Eye catching button for hyperlinks"
+msgstr "Pulsante Eye  per i collegamenti ipertestuali"
+
+#: shortcodes/button/button.php:85 shortcodes/buttonbar/item/buttonbar.php:53
+#: shortcodes/heading/heading.php:79
+#: shortcodes/progressbar/item/progressbar.php:35
+#: shortcodes/progresscircle/progresscircle.php:93 shortcodes/text/text.php:38
+#: shortcodes/text/text.php:45
+msgid "Text"
+msgstr "Testo"
+
+#: shortcodes/button/button.php:92 shortcodes/buttonbar/item/buttonbar.php:60
+#: shortcodes/image/image.php:106
+msgid "On Click"
+msgstr "Cliccando "
+
+#: shortcodes/button/button.php:99 shortcodes/buttonbar/item/buttonbar.php:67
+msgid "Select link types: link to post, page, category..."
+msgstr "Seleziona il tipo di link; link all'articolo, pagina, categoria..."
+
+#: shortcodes/button/button.php:102 shortcodes/buttonbar/item/buttonbar.php:70
+#: shortcodes/image/image.php:123
+#: shortcodes/pricing-table/item/pricing-table.php:112
+#: shortcodes/pricing-table/item/pricing-table.php:117
+#: shortcodes/promobox/promobox.php:116
+msgid "URL"
+msgstr "URL"
+
+#: shortcodes/button/button.php:110 shortcodes/buttonbar/item/buttonbar.php:78
+#: shortcodes/image/image.php:132
+#: shortcodes/pricing-table/item/pricing-table.php:122
+#: shortcodes/promobox/promobox.php:124
+msgid "Single Item"
+msgstr "Voce singola"
+
+#: shortcodes/button/button.php:124 shortcodes/buttonbar/item/buttonbar.php:93
+#: shortcodes/image/image.php:146
+#: shortcodes/pricing-table/item/pricing-table.php:136
+#: shortcodes/promobox/promobox.php:138
+msgid "Open in"
+msgstr "Apri in"
+
+#: shortcodes/button/button.php:131
+#: shortcodes/buttonbar/item/buttonbar.php:100 shortcodes/image/image.php:152
+msgid "Select type of opening action when click on element"
+msgstr "Seleziona il tipo di apertura quando si clicca sul elemento "
+
+#: shortcodes/button/button.php:167
+#: shortcodes/buttonbar/item/buttonbar.php:111
+#: shortcodes/promobox/promobox.php:331
+msgid "Size"
+msgstr "Dimensione"
+
+#: shortcodes/button/button.php:181
+#: shortcodes/buttonbar/item/buttonbar.php:156
+msgid "Select the color of the button"
+msgstr "Seleziona il colore del tasto"
+
+#: shortcodes/buttonbar/buttonbar.php:38 shortcodes/buttonbar/buttonbar.php:46
+#: shortcodes/buttonbar/buttonbar.php:47
+msgid "Button Bar"
+msgstr "Pulsanti Multipli "
+
+#: shortcodes/buttonbar/buttonbar.php:42
+msgid "Bar of buttons"
+msgstr "Bar of buttons"
+
+#: shortcodes/buttonbar/buttonbar.php:119
+msgid "Distance between items"
+msgstr "Distanza tra le voci"
+
+#: shortcodes/buttonbar/buttonbar.php:138
+#: shortcodes/progressbar/progressbar.php:117
+msgid "Show Title"
+msgstr "Mostra il titolo"
+
+#: shortcodes/buttonbar/buttonbar.php:154
+msgid "Show Group Buttons"
+msgstr "Mostra il gruppo di pulsanti "
+
+#: shortcodes/buttonbar/item/buttonbar.php:33
+msgid "Button Bar Item"
+msgstr "Voce dei pulsanti"
+
+#: shortcodes/buttonbar/item/buttonbar.php:120
+msgid "Custom dimensions"
+msgstr "Personalizza dimensioni "
+
+#: shortcodes/buttonbar/item/buttonbar.php:141
+msgid "Height"
+msgstr "Altezza"
+
+#: shortcodes/carousel/carousel.php:36
+msgid "Rotating circular content with text and images"
+msgstr "Contenuti  circolari rotanti con testo e immagini"
+
+#: shortcodes/carousel/carousel.php:133
+msgid "Show Indicator"
+msgstr "Mostra Indicatore "
+
+#: shortcodes/carousel/carousel.php:138
+msgid "Round Pagination buttons"
+msgstr "Pulsanti di paginazione rotondi"
+
+#: shortcodes/carousel/carousel.php:141
+msgid "Show Arrows"
+msgstr "Mostra Arrows"
+
+#: shortcodes/carousel/carousel.php:146
+msgid "Previous & Next buttons"
+msgstr "Pulsanti Precedente & Prossimo"
+
+#: shortcodes/carousel/carousel.php:149
+msgid "Automatic Cycling"
+msgstr "Ciclo automatico "
+
+#: shortcodes/carousel/carousel.php:155
+msgid "Automatically run carousel"
+msgstr "Eseguire Carosello automaticamente"
+
+#: shortcodes/carousel/carousel.php:158
+msgid "Cycling Interval"
+msgstr "Intervallo di ciclo"
+
+#: shortcodes/carousel/carousel.php:171
+msgid "Set interval for each cycling"
+msgstr "Seleziona intervallo di tempo per ogni ciclo"
+
+#: shortcodes/carousel/carousel.php:174
+msgid "Pause on mouse over"
+msgstr "Pausa al passaggio del mouse"
+
+#: shortcodes/carousel/carousel.php:180
+msgid "Pause cycling on mouse over"
+msgstr "Pausa del ciclo al passaggio del mouse"
+
+#: shortcodes/carousel/item/carousel.php:32
+msgid "Carousel Item"
+msgstr "Voce Carosello "
+
+#: shortcodes/carousel/item/carousel.php:47 shortcodes/image/image.php:85
+#: shortcodes/pricing-table/item/pricing-table.php:68
+msgid "Image File"
+msgstr "File immagine"
+
+#: shortcodes/divider/divider.php:38
+msgid "Divider"
+msgstr "Divisore"
+
+#: shortcodes/divider/divider.php:41
+msgid "Horizontal line for dividing sections"
+msgstr "Linea orizzontale per dividere sezioni "
+
+#: shortcodes/divider/divider.php:99
+msgid "Divider Width"
+msgstr "Larghezza della divisione "
+
+#: shortcodes/divider/divider.php:105
+msgid "100"
+msgstr "100"
+
+#: shortcodes/divider/divider.php:106
+msgid "80"
+msgstr "80"
+
+#: shortcodes/divider/divider.php:107
+msgid "70"
+msgstr "70"
+
+#: shortcodes/divider/divider.php:108
+msgid "60"
+msgstr "60"
+
+#: shortcodes/divider/divider.php:109
+msgid "50"
+msgstr "50"
+
+#: shortcodes/googlemap/googlemap.php:37 shortcodes/googlemap/googlemap.php:45
+#: shortcodes/googlemap/googlemap.php:46
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: shortcodes/googlemap/googlemap.php:40
+msgid "Map with a specified title and location"
+msgstr "Mappa con titolo e locazione "
+
+#: shortcodes/googlemap/googlemap.php:95 shortcodes/image/image.php:160
+#: shortcodes/qrcode/qrcode.php:95 shortcodes/testimonial/testimonial.php:133
+msgid "Container Style"
+msgstr "Stile "
+
+#: shortcodes/googlemap/googlemap.php:137
+msgid "Zoom Level"
+msgstr "Livello Zoom"
+
+#: shortcodes/googlemap/googlemap.php:145
+msgid "Map Type"
+msgstr "Tipologia di mappa "
+
+#: shortcodes/googlemap/googlemap.php:160
+msgid "Street View"
+msgstr "Street View"
+
+#: shortcodes/googlemap/googlemap.php:161
+msgid "Zoom Controls"
+msgstr "Zoom Controls"
+
+#: shortcodes/googlemap/googlemap.php:162
+msgid "Pan Controls"
+msgstr "Pan Controls"
+
+#: shortcodes/googlemap/googlemap.php:163
+msgid "Map Type Controls"
+msgstr "Tipologia mappa Controls"
+
+#: shortcodes/googlemap/googlemap.php:164
+msgid "Scale Controls"
+msgstr "Controlli scala"
+
+#: shortcodes/googlemap/googlemap.php:165
+msgid "Overview Map Controls"
+msgstr "Panoramica Mappa Controls"
+
+#: shortcodes/googlemap/item/googlemap.php:23
+msgid "Marker"
+msgstr "Marcatore"
+
+#: shortcodes/googlemap/item/googlemap.php:24
+msgid "Google Maps Item"
+msgstr "Voce Google Maps"
+
+#: shortcodes/googlemap/item/googlemap.php:52
+msgid "Description of marker"
+msgstr "Discrezione del marcatore "
+
+#: shortcodes/googlemap/item/googlemap.php:57
+#: shortcodes/googlemap/item/googlemap.php:61
+msgid "Link URL"
+msgstr "Link URL"
+
+#: shortcodes/googlemap/item/googlemap.php:73
+#: shortcodes/googlemap/item/googlemap.php:95
+msgid "Location"
+msgstr "Posizione"
+
+#: shortcodes/googlemap/item/googlemap.php:83
+msgid "Long"
+msgstr "Longitudine "
+
+#: shortcodes/googlemap/item/googlemap.php:92
+msgid "Lat"
+msgstr "Latitudine "
+
+#: shortcodes/googlemap/item/googlemap.php:99
+msgid "Enable Direction"
+msgstr "Attiva Direzione"
+
+#: shortcodes/googlemap/item/googlemap.php:108
+#: shortcodes/googlemap/item/googlemap.php:111
+msgid "Destination"
+msgstr "Destinazione "
+
+#: shortcodes/heading/heading.php:40
+msgid "Heading tags for text"
+msgstr "Titolo dei Tag per testo"
+
+#: shortcodes/heading/heading.php:70
+msgid "Tag"
+msgstr "Tag"
+
+#: shortcodes/heading/heading.php:76
+msgid "Support tags: H1, H2, H3, H4, H5, H6"
+msgstr "Supporto tag: H1, H2, H3, H4, H5, H6"
+
+#: shortcodes/heading/heading.php:84
+msgid "Your heading text"
+msgstr "Tuo testo del tiltolo"
+
+#: shortcodes/heading/heading.php:110 shortcodes/promobox/promobox.php:226
+msgid "Font"
+msgstr "Font"
+
+#: shortcodes/heading/heading.php:119 shortcodes/list/list.php:197
+#: shortcodes/promobox/promobox.php:238 shortcodes/text/text.php:107
+msgid "Font Face"
+msgstr "Font Face"
+
+#: shortcodes/heading/heading.php:143 shortcodes/list/list.php:222
+#: shortcodes/promobox/promobox.php:264 shortcodes/text/text.php:132
+msgid "Font Attributes"
+msgstr "Attributi Font"
+
+#: shortcodes/heading/heading.php:174
+msgid "Enable Underline"
+msgstr "Abilita Sottolineato"
+
+#: shortcodes/heading/heading.php:182
+msgid "Underline Style"
+msgstr "Sottolineato Stile"
+
+#: shortcodes/heading/heading.php:213
+msgid "Underline Padding"
+msgstr "Sottolineato Padding"
+
+#: shortcodes/image/image.php:42
+msgid "Simple image with animation"
+msgstr "Immagine con animazione "
+
+#: shortcodes/image/image.php:92
+msgid "Image Size"
+msgstr "Dimensione Immagine "
+
+#: shortcodes/image/image.php:95
+msgid "Set image size"
+msgstr "Seleziona la dimensione immagine"
+
+#: shortcodes/image/image.php:98
+msgid "Alt Text"
+msgstr "Alt Text"
+
+#: shortcodes/image/image.php:103
+msgid "Set alt text for image"
+msgstr "Seleziona testo alternativo per immagine "
+
+#: shortcodes/image/image.php:112
+msgid "Set link type of image"
+msgstr "Seleziona tipo di link per immagine"
+
+#: shortcodes/image/image.php:116
+msgid "Large Image Size"
+msgstr "Dimensione Immagine Grande"
+
+#: shortcodes/image/image.php:119
+msgid "Choose image size"
+msgstr "Scegli dimensione immagine"
+
+#: shortcodes/image/image.php:129
+msgid "Url of link when click on image"
+msgstr "Url del link quando si clicca sulla immagine "
+
+#: shortcodes/list/item/list.php:26
+msgid "List Item"
+msgstr "Lista voci"
+
+#: shortcodes/list/list.php:42
+msgid "List of free content with icons"
+msgstr "Lista dei contenuti gratuiti con icone "
+
+#: shortcodes/list/list.php:121
+msgid "Layout"
+msgstr "Layout"
+
+#: shortcodes/list/list.php:130
+msgid "Icon Background"
+msgstr "Icona di sfondo "
+
+#: shortcodes/list/list.php:160
+msgid "Icon Color"
+msgstr "Colore Icona"
+
+#: shortcodes/list/list.php:179
+msgid "Show Heading"
+msgstr "Mostra Titolo"
+
+#: shortcodes/list/list.php:187
+msgid "Heading Font"
+msgstr "Font titolo"
+
+#: shortcodes/list/list.php:218 shortcodes/promobox/promobox.php:259
+msgid "Select Font Face"
+msgstr "Seleziona Font"
+
+#: shortcodes/list/list.php:250
+msgid "Set size and text style for your heading"
+msgstr "Seleziona dimensione e stile di testo per titolo"
+
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:74
+#: shortcodes/pricing-table/item/pricing-table-attr-value.php:80
+msgid "Value"
+msgstr "Valore"
+
+#: shortcodes/pricing-table/item/pricing-table.php:32
+#: shortcodes/pricing-table/item/pricing-table.php:33
+msgid "Option"
+msgstr "Opzione"
+
+#: shortcodes/pricing-table/item/pricing-table.php:60
+msgid "Description Tooltip"
+msgstr "Descrizione Tooltip"
+
+#: shortcodes/pricing-table/item/pricing-table.php:71
+#: shortcodes/pricing-table/item/pricing-table.php:76
+msgid "Currency"
+msgstr "Valuta"
+
+#: shortcodes/pricing-table/item/pricing-table.php:79
+#: shortcodes/pricing-table/item/pricing-table.php:84
+#: shortcodes/pricing-table/pricing-table.php:156
+msgid "Price"
+msgstr "Prezzo"
+
+#: shortcodes/pricing-table/item/pricing-table.php:87
+#: shortcodes/pricing-table/item/pricing-table.php:92
+msgid "Time Limits"
+msgstr "Limite di tempo"
+
+#: shortcodes/pricing-table/item/pricing-table.php:95
+#: shortcodes/pricing-table/item/pricing-table.php:100
+msgid "Button Text"
+msgstr "Testo del Pulsante"
+
+#: shortcodes/pricing-table/item/pricing-table.php:99
+msgid "Buy now"
+msgstr "Acqusta ora"
+
+#: shortcodes/pricing-table/item/pricing-table.php:103
+#: shortcodes/pricing-table/item/pricing-table.php:108
+#: shortcodes/promobox/promobox.php:107
+msgid "Button Link"
+msgstr "Pulsante link"
+
+#: shortcodes/pricing-table/item/pricing-table.php:106
+msgid "url"
+msgstr "url"
+
+#: shortcodes/pricing-table/item/pricing-table.php:165
+msgid "Featured"
+msgstr "In primo piano"
+
+#: shortcodes/pricing-table/pricing-table.php:59
+#: shortcodes/pricing-table/pricing-table.php:67
+#: shortcodes/pricing-table/pricing-table.php:68
+msgid "Pricing Table"
+msgstr "Tabella prezzi "
+
+#: shortcodes/pricing-table/pricing-table.php:62
+msgid "Pricing table with flexible settings"
+msgstr "Tabella prezzi con impostazioni flessibili "
+
+#: shortcodes/pricing-table/pricing-table.php:126
+msgid "Options"
+msgstr "Opzioni"
+
+#: shortcodes/pricing-table/pricing-table.php:159
+msgid "Elements to display on pricing table"
+msgstr "Elementi per display sulla tabella prezzi"
+
+#: shortcodes/progressbar/item/progressbar.php:23
+#: shortcodes/progressbar/item/progressbar.php:24
+msgid "Progress Bar Item"
+msgstr "Barra Progresso "
+
+#: shortcodes/progressbar/item/progressbar.php:43
+#: shortcodes/progresscircle/progresscircle.php:111
+msgid "Percentage"
+msgstr "Percentuale "
+
+#: shortcodes/progressbar/item/progressbar.php:59
+#: shortcodes/table/table.php:93
+msgid "Style"
+msgstr "Stile"
+
+#: shortcodes/progressbar/progressbar.php:38
+#: shortcodes/progressbar/progressbar.php:46
+#: shortcodes/progressbar/progressbar.php:47
+msgid "Progress Bar"
+msgstr "Barra Progresso "
+
+#: shortcodes/progressbar/progressbar.php:42
+msgid "Animated progress bar"
+msgstr "Barra Progresso Animata "
+
+#: shortcodes/progressbar/progressbar.php:102
+msgid "Presentation"
+msgstr "Presentazione "
+
+#: shortcodes/progressbar/progressbar.php:124
+msgid "Show Percentage"
+msgstr "Mostra Percentuale "
+
+#: shortcodes/progressbar/progressbar.php:136
+msgid "Animated Progress Bar"
+msgstr "Barra Progresso Animata "
+
+#: shortcodes/progresscircle/progresscircle.php:41
+#: shortcodes/progresscircle/progresscircle.php:48
+#: shortcodes/progresscircle/progresscircle.php:49
+msgid "Progress Circle"
+msgstr "Progresso modalità cerchio"
+
+#: shortcodes/progresscircle/progresscircle.php:44
+msgid "Animated progress circle"
+msgstr "Progresso modalità cerchio animata "
+
+#: shortcodes/progresscircle/progresscircle.php:103
+msgid "The circle information"
+msgstr "Cerchio informazioni"
+
+#: shortcodes/progresscircle/progresscircle.php:121
+msgid "Foreground Color"
+msgstr "Colore di primo piano"
+
+#: shortcodes/progresscircle/progresscircle.php:127
+#: shortcodes/promobox/promobox.php:152
+msgid "Background Color"
+msgstr "Colore dello sfondo "
+
+#: shortcodes/progresscircle/progresscircle.php:133
+msgid "Use Fill Color"
+msgstr "Utilizzare  strumenti di colore"
+
+#: shortcodes/progresscircle/progresscircle.php:141
+msgid "Fill Color"
+msgstr "Colore riempimento"
+
+#: shortcodes/progresscircle/progresscircle.php:148
+msgid "Circle Thickness"
+msgstr "Spessore cerchio "
+
+#: shortcodes/progresscircle/progresscircle.php:166
+msgid "Size of process circle, caculated by its diameter"
+msgstr "Dimensioni del processo cerchio, calcolato dal suo diametro"
+
+#: shortcodes/progresscircle/progresscircle.php:169
+msgid "Font Size"
+msgstr "Dimensione Font"
+
+#: shortcodes/progresscircle/progresscircle.php:186
+msgid "Show half"
+msgstr "Mostra metà"
+
+#: shortcodes/promobox/promobox.php:38 shortcodes/promobox/promobox.php:45
+#: shortcodes/promobox/promobox.php:46
+msgid "Promotion Box"
+msgstr "Box promozione"
+
+#: shortcodes/promobox/promobox.php:41
+msgid "Styled box for promotion"
+msgstr "Stile del box promozione "
+
+#: shortcodes/promobox/promobox.php:86
+msgid "Promotion Title"
+msgstr "Titolo Promozione "
+
+#: shortcodes/promobox/promobox.php:89
+msgid "Promotion Box Title"
+msgstr "Titolo del Box Promozione "
+
+#: shortcodes/promobox/promobox.php:94
+msgid "Promotion Content"
+msgstr "Contenuto Promozione "
+
+#: shortcodes/promobox/promobox.php:100
+msgid "Button Title"
+msgstr "Titolo Pulsante "
+
+#: shortcodes/promobox/promobox.php:171
+msgid "Border Width"
+msgstr "Larghezza del bordo"
+
+#: shortcodes/promobox/promobox.php:182
+msgid "Border Color"
+msgstr "Colore del Bordo"
+
+#: shortcodes/promobox/promobox.php:201
+msgid "Show Shadow"
+msgstr "Mostra Ombra"
+
+#: shortcodes/promobox/promobox.php:206
+msgid "Shadow of Promotion Box"
+msgstr "Ombra del Box Promozione "
+
+#: shortcodes/promobox/promobox.php:215 shortcodes/table/item/table.php:110
+msgid "Content"
+msgstr "Contenuto"
+
+#: shortcodes/promobox/promobox.php:220
+msgid "Elements to display on promotion box"
+msgstr "Elementi da mostrare nel Box promozioni"
+
+#: shortcodes/promobox/promobox.php:233
+msgid "Select Font Type"
+msgstr "Selezione tipo di Font"
+
+#: shortcodes/promobox/promobox.php:292 shortcodes/text/text.php:160
+msgid "Set Font Attribute"
+msgstr "Seleziona Attributo Font"
+
+#: shortcodes/promobox/promobox.php:297
+msgid "Bottom Padding"
+msgstr "Padding Basso "
+
+#: shortcodes/promobox/promobox.php:309
+msgid "Set Bottom Padding"
+msgstr "Seleziona Padding Basso"
+
+#: shortcodes/promobox/promobox.php:314
+msgid "Bottom Margin"
+msgstr "Margine basso"
+
+#: shortcodes/promobox/promobox.php:326
+msgid "Set Bottom Margin"
+msgstr "Seleziona margine basso"
+
+#: shortcodes/promobox/promobox.php:336
+msgid "Set Button Size"
+msgstr "Seleziona dimensione del pulsante "
+
+#: shortcodes/promobox/promobox.php:341 shortcodes/tooltip/tooltip.php:104
+msgid "Button Color"
+msgstr "Colore Pulsante "
+
+#: shortcodes/promobox/promobox.php:346
+msgid "Set Button Color"
+msgstr "Seleziona Colore del Pulsante "
+
+#: shortcodes/qrcode/qrcode.php:38 shortcodes/qrcode/qrcode.php:45
+#: shortcodes/qrcode/qrcode.php:46
+msgid "QR Code"
+msgstr "QR Code"
+
+#: shortcodes/qrcode/qrcode.php:41
+msgid "QR code with data setting"
+msgstr "QR code con impostazioni dei dati"
+
+#: shortcodes/qrcode/qrcode.php:73
+msgid "Data"
+msgstr "Data"
+
+#: shortcodes/qrcode/qrcode.php:78
+msgid ""
+"Here you can input names, urls, phone numbers, email addresses or plain text"
+msgstr "Qui è possibile inserire nomi, URL, numeri di telefono, indirizzi email o di testo normale"
+
+#: shortcodes/qrcode/qrcode.php:82
+msgid "Image ALT Text"
+msgstr "ALT Text per immagine "
+
+#: shortcodes/qrcode/qrcode.php:86
+msgid "Wordpress themes from www.woorockets.com"
+msgstr "Wordpress themes from www.woorockets.com"
+
+#: shortcodes/qrcode/qrcode.php:87
+msgid "Text tooltip appears when QR box is hovered through"
+msgstr "Tooltip testo appare quando box QR si librava attraverso"
+
+#: shortcodes/qrcode/qrcode.php:111
+msgid "QR Code Size"
+msgstr "QR Code dimensione "
+
+#: shortcodes/qrcode/qrcode.php:117
+msgid "150"
+msgstr "150"
+
+#: shortcodes/qrcode/qrcode.php:118
+msgid "200"
+msgstr "200"
+
+#: shortcodes/qrcode/qrcode.php:119
+msgid "250"
+msgstr "250"
+
+#: shortcodes/qrcode/qrcode.php:120
+msgid "300"
+msgstr "300"
+
+#: shortcodes/qrcode/qrcode.php:121
+msgid "350"
+msgstr "350"
+
+#: shortcodes/tab/item/tab.php:31
+msgid "Tab Item"
+msgstr "Etichetta voce"
+
+#: shortcodes/tab/tab.php:43
+msgid "Tabbed content"
+msgstr "Contenuti a schede"
+
+#: shortcodes/tab/tab.php:116
+msgid "Open First"
+msgstr "Apri Primo"
+
+#: shortcodes/tab/tab.php:122
+msgid "Tab to be opened at first load"
+msgstr "Tab per essere aperto in primo carico"
+
+#: shortcodes/tab/tab.php:125
+msgid "Fade Effect"
+msgstr "Effetto dissolvenza"
+
+#: shortcodes/tab/tab.php:133
+msgid "Tab Position"
+msgstr "Posizione scheda"
+
+#: shortcodes/tab/tab.php:193
+msgid "Tab Item "
+msgstr "Voce scheda"
+
+#: shortcodes/table/item/table.php:33
+msgid "Table Item"
+msgstr "Tabella Voce "
+
+#: shortcodes/table/item/table.php:82
+msgid "Row Span"
+msgstr "Spazio Riga"
+
+#: shortcodes/table/item/table.php:89
+msgid "Enable extending over multiple rows"
+msgstr "Abilita estensione su più righe "
+
+#: shortcodes/table/item/table.php:92
+msgid "Column Span"
+msgstr "Spazio colone "
+
+#: shortcodes/table/item/table.php:99
+msgid "Enable extending over multiple columns"
+msgstr "Abilita estensione su più colonne"
+
+#: shortcodes/table/item/table.php:102
+msgid "Row Style"
+msgstr "Stile Riga"
+
+#: shortcodes/table/item/table.php:116
+msgid "Table content"
+msgstr "Tabella contenuto "
+
+#: shortcodes/table/table.php:38
+msgid "Table"
+msgstr "Tabella "
+
+#: shortcodes/table/table.php:42
+msgid "Simple table with flexible setting"
+msgstr "Semplice tabella con impostazioni flessibili "
+
+#: shortcodes/table/table.php:71
+msgid "Table Content"
+msgstr "Contenuto Tabella "
+
+#: shortcodes/table/table.php:97
+msgid "Bordered"
+msgstr "Delimitata"
+
+#: shortcodes/table/table.php:97
+msgid "Hover"
+msgstr "Hover"
+
+#: shortcodes/testimonial/item/testimonial.php:26
+#: shortcodes/testimonial/item/testimonial.php:27
+msgid "Testimonial Item"
+msgstr "Testimonianza "
+
+#: shortcodes/testimonial/item/testimonial.php:46
+#: shortcodes/testimonial/testimonial.php:121
+msgid "Client's Name"
+msgstr "Nome clienti "
+
+#: shortcodes/testimonial/item/testimonial.php:72
+msgid "Client's Name Description"
+msgstr "Descrizione nomi clienti "
+
+#: shortcodes/testimonial/item/testimonial.php:76
+#: shortcodes/testimonial/testimonial.php:122
+msgid "Client's Position"
+msgstr "Posizione Clienti "
+
+#: shortcodes/testimonial/item/testimonial.php:80
+msgid "Client's Position Description"
+msgstr "Descrizione Posizione Clienti"
+
+#: shortcodes/testimonial/item/testimonial.php:84
+#: shortcodes/testimonial/testimonial.php:119
+msgid "Feedback Content"
+msgstr " Contenuto Feedback "
+
+#: shortcodes/testimonial/item/testimonial.php:95
+msgid "Country Description"
+msgstr "Descrizione Paese"
+
+#: shortcodes/testimonial/item/testimonial.php:98
+#: shortcodes/testimonial/testimonial.php:124
+msgid "Company"
+msgstr "Azienda "
+
+#: shortcodes/testimonial/item/testimonial.php:102
+msgid "Company Description"
+msgstr "Descrizione Azienda "
+
+#: shortcodes/testimonial/item/testimonial.php:105
+msgid "Website URL"
+msgstr "Website URL"
+
+#: shortcodes/testimonial/item/testimonial.php:108
+msgid "http://"
+msgstr "http://"
+
+#: shortcodes/testimonial/item/testimonial.php:109
+msgid "Website URL Description"
+msgstr "Website URL Descrizione"
+
+#: shortcodes/testimonial/item/testimonial.php:112
+#: shortcodes/testimonial/testimonial.php:120
+msgid "Avatar"
+msgstr "Foto "
+
+#: shortcodes/testimonial/item/testimonial.php:117
+msgid "Image File for User"
+msgstr "Immagine per Utente "
+
+#: shortcodes/testimonial/testimonial.php:37
+msgid "Testimonial"
+msgstr "Testimonianza "
+
+#: shortcodes/testimonial/testimonial.php:41
+msgid "Testimonial with flexible settings"
+msgstr "Testimonianza con impostazioni flessibili "
+
+#: shortcodes/testimonial/testimonial.php:94
+msgid "Items per Slide"
+msgstr "Voci per Slide "
+
+#: shortcodes/testimonial/testimonial.php:102
+msgid "Slider Elements"
+msgstr "Elementi slider"
+
+#: shortcodes/testimonial/testimonial.php:109
+msgid "Arrows"
+msgstr "Frecce"
+
+#: shortcodes/testimonial/testimonial.php:110
+msgid "Indicator"
+msgstr "Indicatore"
+
+#: shortcodes/testimonial/testimonial.php:114
+msgid "Content Elements"
+msgstr "Contenuto elementi "
+
+#: shortcodes/testimonial/testimonial.php:143
+msgid "Length Limitation"
+msgstr "Limitazione Lunghezza "
+
+#: shortcodes/testimonial/testimonial.php:160
+msgid "Words"
+msgstr "Parole "
+
+#: shortcodes/testimonial/testimonial.php:161
+msgid "Characters"
+msgstr "Caratteri "
+
+#: shortcodes/text/text.php:41
+msgid "Simple text"
+msgstr "Testo semplice "
+
+#: shortcodes/text/text.php:74 shortcodes/tooltip/tooltip.php:68
+msgid "Parent Element Text"
+msgstr "Parent dell'elemento testo"
+
+#: shortcodes/text/text.php:75
+msgid "Enter some content for this textblock"
+msgstr "Inserire alcuni contenuti per questo blocco di testo"
+
+#: shortcodes/text/text.php:98
+msgid "Enable Dropcap"
+msgstr "Abilita Dropcap"
+
+#: shortcodes/text/text.php:103
+msgid "The first letter of paragraph that is enlarged"
+msgstr "La prima lettera del paragrafo che viene allargata"
+
+#: shortcodes/text/text.php:128
+msgid "Set Font Face"
+msgstr "Seleziona Font Face"
+
+#: shortcodes/tooltip/tooltip.php:39
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: shortcodes/tooltip/tooltip.php:42
+msgid "Tooltip with flexible setting"
+msgstr "Tooltip con impostazioni "
+
+#: shortcodes/tooltip/tooltip.php:72
+msgid "Your text"
+msgstr "Tuo testo"
+
+#: shortcodes/tooltip/tooltip.php:75
+msgid "Tooltip Content"
+msgstr "Contenuto Tooltip "
+
+#: shortcodes/tooltip/tooltip.php:79
+msgid "Your tooltip content"
+msgstr "Tuo contenuto Tooltip"
+
+#: shortcodes/tooltip/tooltip.php:87
+msgid "Tooltip Position"
+msgstr "Posizione Tooltip "
+
+#: shortcodes/tooltip/tooltip.php:95
+msgid "Make Parent Element a Button"
+msgstr "Fai Parent Element  pulsante"
+
+#: shortcodes/tooltip/tooltip.php:101
+msgid "Create button from text"
+msgstr "Crea pulsante dal Testo "
+
+#: shortcodes/tooltip/tooltip.php:117
+msgid "Delay"
+msgstr "Ritardo"
+
+#: shortcodes/tooltip/tooltip.php:143
+msgid "Set time (ms) to show/ hide tooltip when hover/ leave"
+msgstr "Impostare il tempo (ms) per mostrare / nascondere tooltip quando abbandonare"
+
+#: shortcodes/video/video.php:44
+msgid "Embed Youtube/Vimeo or local file player"
+msgstr "Embed Youtube/Vimeo o player locale"
+
+#: shortcodes/video/video.php:92
+msgid "Youtube"
+msgstr "Youtube"
+
+#: shortcodes/video/video.php:93
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: shortcodes/video/video.php:103
+msgid "Video File"
+msgstr "Video File"
+
+#: shortcodes/video/video.php:113 shortcodes/video/video.php:123
+msgid "Video Link"
+msgstr "Video Link"
+
+#: shortcodes/video/video.php:160
+msgid "Overlay Play Button"
+msgstr "Pulsante Play"
+
+#: shortcodes/video/video.php:166
+msgid "Fullscreen Button"
+msgstr "Pulsante schermo intero"
+
+#: shortcodes/video/video.php:168
+msgid "Elements to display on video player"
+msgstr "Elementi da mostrare sul video Player "
+
+#: shortcodes/video/video.php:207
+msgid "Show List"
+msgstr "Mostra Lista"
+
+#: shortcodes/video/video.php:241
+msgid "Show YouTube Logo"
+msgstr "Mostra logo YouTube"
+
+#: shortcodes/video/video.php:250
+msgid ""
+"Display YouTube logo on action bar that redirects users to original YouTube "
+"video"
+msgstr "Visualizza logo YouTube sulla barra azione che reindirizza gli utenti a video originale su YouTube"
+
+#: shortcodes/video/video.php:253
+msgid "Show Related Video"
+msgstr "Mostra Video correlati "
+
+#: shortcodes/video/video.php:262
+msgid "Display related video  at the end of YouTube video"
+msgstr "Visualizzare video correlati  alla fine del video di YouTube"
+
+#: shortcodes/video/video.php:265
+msgid "Show Information"
+msgstr "Mostra Info"
+
+#: shortcodes/video/video.php:274
+msgid "Display video title & brief info on top bar of video player"
+msgstr "Mostra Titolo del video  e brevi informazioni sulla barra superiore del lettore video"
+
+#: shortcodes/video/video.php:277
+msgid "Auto Hide"
+msgstr "Nascondi automaticamente"
+
+#: shortcodes/video/video.php:283
+msgid "Auto minimize Progress Bar"
+msgstr "Auto minimizzare Progress Bar"
+
+#: shortcodes/video/video.php:284
+msgid "Both after playing a couple seconds"
+msgstr "Dopo qualche secondo alla fine riproduzione "
+
+#: shortcodes/video/video.php:285
+msgid "Never Hide"
+msgstr "Non nascondere mai"
+
+#: shortcodes/video/video.php:289
+msgid "Show Caption (CC)"
+msgstr "Mostra  Caption (CC)"
+
+#: shortcodes/video/video.php:295
+msgid "Never"
+msgstr "Mai"
+
+#: shortcodes/video/video.php:321
+msgid "Auto play the video"
+msgstr "Auto play  video"
+
+#: shortcodes/video/video.php:336
+msgid "Controls Color"
+msgstr "Colore panello controli"
+
+#: shortcodes/video/video.php:342
+msgid "Set color of controls"
+msgstr "Seleziona colore panello controli"
+
+#: shortcodes/video/video.php:689 shortcodes/video/video.php:710
+msgid "Author Name"
+msgstr "Nome Autore "
+
+#: templates/custom-css.php:46
+msgid "CSS Files"
+msgstr "CSS Files"
+
+#: templates/custom-css.php:53
+msgid "Edit"
+msgstr "Edit"
+
+#: templates/custom-css.php:58
+msgid "Done"
+msgstr "Fatto"
+
+#: templates/custom-css.php:85
+msgid "CSS Code"
+msgstr "CSS Code"
+
+#: templates/custom-css.php:87
+msgid "Input here custom CSS code you want to be loaded on this page"
+msgstr "Inserisci qui codice CSS personalizzato che si desidera che venga caricato su questa pagina"
+
+#: templates/layout/list.php:37
+msgid "&mdash; Untitled &mdash;"
+msgstr "&mdash; Senza Titolo &mdash;"
+
+#: templates/layout/template.php:24
+msgid "Save current content as template"
+msgstr "Salve contenuto del template"
+
+#: templates/layout/template.php:30
+msgid "Layout name"
+msgstr "Nome Layout "
+
+#: templates/layout/template.php:43
+msgid "Saved successfully"
+msgstr "Salvato "
+
+#: templates/layout/template.php:48
+msgid "Apply template from library"
+msgstr "Applica template dalla libreria"
+
+#: templates/page-builder.php:27
+msgid "Active Page Builder"
+msgstr "Attiva Page Builder"
+
+#: templates/page-builder.php:28
+msgid "On"
+msgstr "Su"
+
+#: templates/page-builder.php:32
+msgid "Deactivate Page Builder"
+msgstr "Disattiva Page Builder"
+
+#: templates/page-builder.php:33
+msgid "Off"
+msgstr "Off"
+
+#: templates/page-builder.php:39
+msgid "Compact"
+msgstr "Compatto"
+
+#: templates/page-builder.php:57
+msgid "Page template"
+msgstr "Template pagina"
+
+#: templates/page-builder.php:60 templates/page-builder.php:75
+msgid "Save as new template"
+msgstr "Salva nuovo Template "
+
+#: templates/page-builder.php:62
+msgid "Load template"
+msgstr "Carica Template"
+
+#: templates/page-builder.php:80
+msgid "Template name:"
+msgstr "Nome Template "
+
+#: templates/page-builder.php:119
+msgid ""
+"Your current %1$s has been built by using <strong>%2$s</strong>. Would you "
+"like to convert all data to <strong>WR PageBuilder</strong>?"
+msgstr "Il tuo contenuto attuale %1$s è stato costruito utilizzando <strong>%2$s </ strong>. Volete convertire tutti i dati in <strong> WR PageBuilder </ strong>?"
+
+#: templates/page-builder.php:133
+msgid "I also want to backup all data as a new %s"
+msgstr "Voglio anche fare il backup nuovo di tutti i dati  %s"
+
+#: templates/page-builder.php:138 templates/page-builder.php:144
+msgid "Converting Data..."
+msgstr "Conversione dei dati..."
+
+#: templates/page-builder.php:139
+msgid "Convert"
+msgstr "Converti"
+
+#: templates/page-builder.php:142
+msgid "or"
+msgstr "o"
+
+#: templates/page-builder.php:145
+msgid "Convert and Publish"
+msgstr "Converti e Pubblica "
+
+#: templates/page-builder.php:175
+msgid "PageBuilder for this page is currently off."
+msgstr "PageBuilder per questa pagina attualmente è spento"
+
+#: templates/page-builder.php:179
+msgid "Turn PageBuilder on"
+msgstr "Accendere PageBuilder su"
+
+#: templates/page-builder.php:192
+msgid "by"
+msgstr "da"
+
+#: templates/page-builder.php:198 templates/about-us.php:101
+msgid "Documentation"
+msgstr "Documentazione "
+
+#: templates/page-builder.php:201
+msgid "Support"
+msgstr "Supporto"
+
+#: templates/page-builder.php:203
+msgid "Report bug"
+msgstr "Report bug"
+
+#: templates/report-bug.php:19
+msgid ""
+"Please give the details of your report. Our technical staffs will recheck "
+"and fix bug(s) as soon as possible"
+msgstr "Si prega di dare i dettagli del report. Il nostro personale tecnico controlerà e  correggerà  bug (s) al più presto possibile"
+
+#: templates/report-bug.php:23
+msgid "Browser"
+msgstr "Browser"
+
+#: templates/report-bug.php:24
+msgid "Chose the browser that you meet the bug while using"
+msgstr "Scegli il browser con quale  si incontra il bug durante l'utilizzo"
+
+#: templates/report-bug.php:26
+msgid "--Select Browser--"
+msgstr "--Seleziona Browser--"
+
+#: templates/report-bug.php:27
+msgid "Firefox"
+msgstr "Firefox"
+
+#: templates/report-bug.php:28
+msgid "Chrome"
+msgstr "Chrome"
+
+#: templates/report-bug.php:29
+msgid "Safari"
+msgstr "Safari"
+
+#: templates/report-bug.php:30
+msgid "Opera"
+msgstr "Opera"
+
+#: templates/report-bug.php:31
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: templates/report-bug.php:32
+msgid "Other"
+msgstr "Altri "
+
+#: templates/report-bug.php:36
+msgid "Attachment(s)"
+msgstr "Allegato(i) "
+
+#: templates/report-bug.php:47
+msgid "Or Enter an URL"
+msgstr "o inserisci Url"
+
+#: templates/select-elements.php:23
+msgid "You have not install Free or Pro Shortcode package."
+msgstr "Non hai installare Free o Pro pacchetto Shortcode."
+
+#: templates/select-elements.php:62
+msgid "Page Elements"
+msgstr "Elementi pagina"
+
+#: templates/select-elements.php:66
+msgid "All Elements"
+msgstr "tutti elementi"
+
+#: templates/select-elements.php:86
+msgid "Widgets"
+msgstr "Widgets"
+
+#: templates/select-elements.php:89
+msgid "PageBuilder Shortcode"
+msgstr "PageBuilder Shortcode"
+
+#: templates/select-elements.php:96
+msgid "Search"
+msgstr "Cerca"
+
+#: templates/select-elements.php:98
+msgid "Clear Search"
+msgstr "Pulizia Cerca"
+
+#: templates/settings.php:20
+msgid "WR PageBuilder Settings"
+msgstr "WR PageBuilder Impostazioni"
+
+#: templates/settings.php:25 templates/settings.php:29
+msgid "Settings saved."
+msgstr "Impostazioni salvati"
+
+#: templates/settings.php:33
+msgid "Settings is not saved."
+msgstr "Impostazioni non sono stati salvati!"
+
+#: templates/settings.php:59
+msgid "Your settings are saved successfully"
+msgstr "Tue impostazioni sono stati salvati con successo "
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woorockets.com"
+msgstr "http://www.woorockets.com"
+
+#. Description of the plugin/theme
+msgid "Awesome content builder for Wordpress websites"
+msgstr "Impressionante Generatore di contenuto per WordPress"
+
+#. Author of the plugin/theme
+msgid "WooRockets Team <support@www.woorockets.com>"
+msgstr "WooRockets Team <support@www.woorockets.com>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wordpress.org/plugins/wr-pagebuilder"
+msgstr "http://www.wordpress.org/plugins/wr-pagebuilder"
+
+#: templates/about-us.php:45
+msgid ""
+"Thank you for installing WR Page Builder from WooRockets Team! We are making"
+" new hi-quality themes and plugins for you ;) Follow us on <a href=\"%s\" "
+"target=\"_blank\" >Twitter</a> or <a href=\"%s\" target=\"_blank\" "
+">Subscribe</a> to our email list and be the first to get updated."
+msgstr "Grazie per avere installato WR Page Builder da WooRockets Team! Stiamo facendo nuovi temi e plug-in di alta qualità per voi;) Seguici su <a target=\"_blank\" href=\"%s\"> Twitter </a> o <a href = target \"% s\" = \"_ blank\" > Iscriviti </a> alla nostra mailing list per essere il primo ad ottenere aggiornamenti."
+
+#: templates/about-us.php:76
+msgid ""
+"<strong>WR Page Builder</strong> is the easiest page builder for WordPress "
+"and a totally free WordPress page builder plugin for everyone. It is a "
+"simple drag’n’drop plugin that helps you build a complete WordPress page "
+"within few minutes without any coding knowledge required."
+msgstr "<strong> WR Page Builder </ strong> è il costruttore di pagine più semplice per WordPress. plugin è completamente gratuito per tutti. Si tratta di un semplice plugin drag'n'drop che ti aiuta a costruire una pagina  WordPress completa in giro di pochi minuti, senza alcuna conoscenza di codifica richiesta."
+
+#: templates/about-us.php:79
+msgid "Current version"
+msgstr "Versione corrente"
+
+#: templates/about-us.php:79
+msgid "Change log"
+msgstr "Registro modifiche"
+
+#: templates/about-us.php:80
+msgid "Follow us to get latest updates"
+msgstr "Seguici per ricevere ultimi aggiornamenti"
+
+#: templates/about-us.php:81
+msgid "Follow"
+msgstr "Segui"
+
+#: templates/about-us.php:92
+msgid "Enter your email"
+msgstr "Inserisci il tuo indirizzo e-mail"
+
+#: templates/about-us.php:95
+msgid "Join our mailing list"
+msgstr "Iscriviti alla nostra mailing list"
+
+#: templates/about-us.php:96
+msgid ""
+"Receive the latest updates about WR Page Builder as well as all the best "
+"news from WooRockets"
+msgstr "Ricevi gli ultimi aggiornamenti circa WR Page Builder così come tutte le migliori notizie da WooRockets"
+
+#: templates/about-us.php:102
+msgid "Detailed construction of how to use WR Page Builder"
+msgstr "L'istruzione  dettagliata di come utilizzare WR Page Builder"
+
+#: templates/about-us.php:109
+msgid "Hot Features"
+msgstr "Caratteristiche in primo piano"
+
+#: templates/about-us.php:112
+msgid "For Developers"
+msgstr "Per sviluppatori "
+
+#: templates/about-us.php:115
+msgid "For Translators"
+msgstr "Per traduttori "
+
+#: templates/about-us.php:121
+msgid "Intuitive Layout"
+msgstr " Layout intuitivo "
+
+#: templates/about-us.php:122
+msgid ""
+"Once installed, it’s located next to the default WordPress Editor. To help "
+"you easily create your pages/posts, <strong>WR Page Builder</strong> is "
+"designed with a simple and intuitive layout. You can easily switch between "
+"compact mode and full preview mode to preview everything you have created "
+"without going back to the front-end."
+msgstr "Una volta installato, è situato vicino al default WordPress Editor. Per aiutarvi a creare facilmente pagine / messaggi, <strong> WR Page Builder </ strong> è stato progettato con un layout semplice e intuitivo. Si può facilmente passare dalla modalità compatta e modalità di anteprima completa per vedere in anteprima tutto quello che hai creato senza tornare al front-end."
+
+#: templates/about-us.php:125
+msgid "Drag and Drop Layout"
+msgstr "Drag and Drop Layout"
+
+#: templates/about-us.php:126
+msgid ""
+"Drag and drop is a convenient functionality for creating a page or a post. "
+"You can easily arrange columns, move page elements or widgets into another "
+"position and even resize columns using just your mouse. You can also use the"
+" “Move button” on the sidebar to move rows up or down."
+msgstr "Drag and drop è una comoda funzionalità per la creazione di una pagina o di un post. Si può facilmente organizzare le colonne, spostare gli elementi della pagina o widget in un'altra posizione ed anche ridimensionare le colonne utilizzando solo il mouse. È inoltre possibile utilizzare il pulsante \"Sposta\" nella barra laterale per spostare le righe verso l'alto o verso il basso."
+
+#: templates/about-us.php:129
+msgid "Advanced Page Elements (Built-in Shortcodes)"
+msgstr "Elementi Avanzati di pagina (Built-in Shortcodes)"
+
+#: templates/about-us.php:130
+msgid ""
+"We have created many advanced page elements, such as: Pricing Tables, QR "
+"codes, Testimonials, Tables… You can choose the most suitable field and add "
+"as many elements as you want for your site without any coding. "
+"Interestingly, you can easily search these elements with the Spotlight "
+"Filter."
+msgstr "Abbiamo creato molti elementi di pagina avanzati, come ad esempio: le tabelle dei prezzi, codici QR, Testimonials, Tavoli ... È possibile scegliere il campo più adatto e aggiungere tanti elementi che vuoi per il tuo sito, senza alcuna codifica. È interessante notare, è possibile cercare facilmente questi elementi con il filtro Spotlight."
+
+#: templates/about-us.php:134
+msgid ""
+"If you are going to build Add-on for WR Page Builder, this document is made "
+"for you. This part includes a knowledge base about WR Page Builder, some "
+"basic APIs, and a tutorial to make a simple Add-on with a simple element."
+msgstr "Se avete intenzione di costruire Add-on per WR Page Builder, questo documento è fatto per voi. Questa parte comprende una base di conoscenze su WR Page Builder, alcune API di base, e un tutorial per fare un semplice add-on con un semplice elemento."
+
+#: templates/about-us.php:135
+msgid "Docs for Developers"
+msgstr "Docs per sviluppatori "
+
+#: templates/about-us.php:136
+msgid "Get our Source Code at Github!"
+msgstr "Ottieni il nostro codice sorgente a Github!"
+
+#: templates/about-us.php:137
+msgid "Source Code"
+msgstr "Codice sorgente"
+
+#: templates/about-us.php:138
+msgid ""
+"Having any exciting ideas or improvements for WR Page Builder to grow our "
+"WordPress Community? Drop an email to our WooRockets Astronaut Tony at"
+msgstr "Avere  le idee interessanti o miglioramenti per WR Page Builder per far crescere la nostra comunità WordPress?Invia una mail al nostro astronauta Tony di WooRockets "
+
+#: templates/about-us.php:141
+msgid ""
+"If you are reading this, we need your contribution! We appreciate all kinds "
+"of support for Translating WR Page Builder into your language!"
+msgstr "Se stai leggendo questo, abbiamo bisogno del tuo contributo! Apprezziamo tutti i tipi di supporto per la traduzione WR Page Builder nella tua lingua!"
+
+#: templates/about-us.php:141
+msgid "Translate WR Page Builder"
+msgstr "Traduci WR Page Builder"
+
+#: templates/about-us.php:142
+msgid "Our awesome translators"
+msgstr "I nostri impressionanti traduttori "
+
+#: templates/about-us.php:159
+msgid "Rate WR Page Builder"
+msgstr "Vota WR Page Builder"
+
+#: templates/about-us.php:160
+msgid ""
+"Share your thoughts of WR Page Builder with other WordPress folks. Next "
+"versions of Page Builder will be improved basing on your opinions."
+msgstr "Condividi i tuoi pensieri su WR Page Builder con altre persone di WordPress. Versioni successive di Page Builder saranno migliorate basandosi sulle vostre opinioni."
+
+#: templates/about-us.php:165 templates/about-us.php:178
+msgid "Submit your Website"
+msgstr "Invia il tuo sito web"
+
+#: templates/about-us.php:166
+msgid ""
+"Share your website using WR Page Builder with us. We can include it in our "
+"showcase collection and have it exposed to thousands of WooRockets's website"
+" visitors."
+msgstr "Condividi il tuo sito web costruito con WR Page Builder con noi. Siamo in grado di includerlo nella nostra  vetrina ed esporlo  a migliaia di visitatori del sito di WooRockets."
+
+#: templates/about-us.php:173
+msgid "Review"
+msgstr "Recensione"
+
+#: templates/about-us.php:187
+msgid "Learn more from <strong>OUR BLOG</strong>"
+msgstr "Scopri di più dal <strong>NOSTRO BLOG</strong>"
+
+#: templates/about-us.php:189
+msgid ""
+"Follow our blog for latest news, tutorials & interviews about WooComerce & "
+"WordPress"
+msgstr "Segui il nostro blog per le ultime notizie, tutorial e interviste su WooComerce & WordPress"
+
+#: templates/about-us.php:192
+msgid "SEE OUR OTHER AWESOMENESS"
+msgstr "Guarda nostri altri fantastici lavori"
+
+#: templates/about-us.php:197
+msgid "Freebies download"
+msgstr "Da scaricare gratis"

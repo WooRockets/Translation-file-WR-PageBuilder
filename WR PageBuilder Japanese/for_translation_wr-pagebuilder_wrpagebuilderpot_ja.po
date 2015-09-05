@@ -109,7 +109,7 @@ msgstr "テーブルには少なくとも2つの行が必要です。そのた�
 
 #: core/helper/functions.php:39
 msgid "Row span/Column span can't be negative"
-msgstr ""
+msgstr "行間数や列間数はマイナスでは出来ません"
 
 #: core/helper/functions.php:41
 msgid "Saving content! Please wait a moment."
@@ -134,7 +134,7 @@ msgstr ""
 #: core/helper/functions.php:47 shortcodes/audio/audio.php:280
 #: shortcodes/audio/audio.php:289
 msgid "No audio source selected"
-msgstr ""
+msgstr "オーディオソースが選ばれていません"
 
 #: core/helper/functions.php:48
 msgid "Select Destination Marker"
@@ -893,27 +893,27 @@ msgstr "WR PageBuilder - 設定"
 
 #: core/product/plugin.php:72 core/product/tmpl/addons.php:13
 msgid "Add-ons"
-msgstr ""
+msgstr "追加機能"
 
 #: core/product/plugin.php:80
 msgid "WR PageBuilder - Add-ons"
-msgstr ""
+msgstr "WR PageBuilder - 追加機能"
 
 #: core/product/plugin.php:144
 msgid "Missing post ID."
-msgstr ""
+msgstr "投稿IDがありません。"
 
 #: core/product/plugin.php:151
 msgid "Missing data converter."
-msgstr ""
+msgstr "データコンバータがありません。"
 
 #: core/product/plugin.php:161
 msgid "Data has been successfully converted!"
-msgstr ""
+msgstr "データが正常に変換されました!"
 
 #: core/product/plugin.php:163
 msgid "Data has been successfully converted and published!"
-msgstr ""
+msgstr "データが正常に変換と投稿されました！"
 
 #: core/product/plugin.php:225
 msgid "Enable PageBuilder for..."
@@ -925,7 +925,7 @@ msgstr "キャッシュの利用"
 
 #: core/product/plugin.php:233
 msgid "Load Bootstrap Assets"
-msgstr "Bootstrapの読み込み"
+msgstr "Bootstrap関連ファイルの読み込み"
 
 #: core/product/plugin.php:239
 msgid "Enable full mode"
@@ -2191,7 +2191,7 @@ msgstr ""
 
 #: shortcodes/promobox/promobox.php:215 shortcodes/table/item/table.php:110
 msgid "Content"
-msgstr ""
+msgstr "コンテンツ"
 
 #: shortcodes/promobox/promobox.php:220
 msgid "Elements to display on promotion box"
@@ -2199,7 +2199,7 @@ msgstr ""
 
 #: shortcodes/promobox/promobox.php:233
 msgid "Select Font Type"
-msgstr ""
+msgstr "フォントタイプの選択"
 
 #: shortcodes/promobox/promobox.php:292 shortcodes/text/text.php:160
 msgid "Set Font Attribute"
@@ -2207,44 +2207,44 @@ msgstr ""
 
 #: shortcodes/promobox/promobox.php:297
 msgid "Bottom Padding"
-msgstr ""
+msgstr "ボタンのパディング"
 
 #: shortcodes/promobox/promobox.php:309
 msgid "Set Bottom Padding"
-msgstr ""
+msgstr "ボタンのパディングを設定"
 
 #: shortcodes/promobox/promobox.php:314
 msgid "Bottom Margin"
-msgstr ""
+msgstr "ボタンのマージン"
 
 #: shortcodes/promobox/promobox.php:326
 msgid "Set Bottom Margin"
-msgstr ""
+msgstr "ボタンのマージンを設定"
 
 #: shortcodes/promobox/promobox.php:336
 msgid "Set Button Size"
-msgstr ""
+msgstr "ボタンサイズの設定"
 
 #: shortcodes/promobox/promobox.php:341 shortcodes/tooltip/tooltip.php:104
 msgid "Button Color"
-msgstr ""
+msgstr "ボタンカラー"
 
 #: shortcodes/promobox/promobox.php:346
 msgid "Set Button Color"
-msgstr ""
+msgstr "ボタンカラーを設定"
 
 #: shortcodes/qrcode/qrcode.php:38 shortcodes/qrcode/qrcode.php:45
 #: shortcodes/qrcode/qrcode.php:46
 msgid "QR Code"
-msgstr ""
+msgstr "QRコード"
 
 #: shortcodes/qrcode/qrcode.php:41
 msgid "QR code with data setting"
-msgstr ""
+msgstr "データが設定されたQRコード"
 
 #: shortcodes/qrcode/qrcode.php:73
 msgid "Data"
-msgstr ""
+msgstr "データ"
 
 #: shortcodes/qrcode/qrcode.php:78
 msgid ""
@@ -2257,7 +2257,7 @@ msgstr ""
 
 #: shortcodes/qrcode/qrcode.php:86
 msgid "Wordpress themes from www.woorockets.com"
-msgstr ""
+msgstr "www.woorockets.comのWordpressテーマ"
 
 #: shortcodes/qrcode/qrcode.php:87
 msgid "Text tooltip appears when QR box is hovered through"
@@ -2265,27 +2265,27 @@ msgstr ""
 
 #: shortcodes/qrcode/qrcode.php:111
 msgid "QR Code Size"
-msgstr ""
+msgstr "QRコードサイズ"
 
 #: shortcodes/qrcode/qrcode.php:117
 msgid "150"
-msgstr ""
+msgstr "150"
 
 #: shortcodes/qrcode/qrcode.php:118
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: shortcodes/qrcode/qrcode.php:119
 msgid "250"
-msgstr ""
+msgstr "250"
 
 #: shortcodes/qrcode/qrcode.php:120
 msgid "300"
-msgstr ""
+msgstr "300"
 
 #: shortcodes/qrcode/qrcode.php:121
 msgid "350"
-msgstr ""
+msgstr "350"
 
 #: shortcodes/tab/item/tab.php:31
 msgid "Tab Item"
@@ -2419,7 +2419,7 @@ msgstr ""
 #: shortcodes/testimonial/item/testimonial.php:112
 #: shortcodes/testimonial/testimonial.php:120
 msgid "Avatar"
-msgstr ""
+msgstr "アバター"
 
 #: shortcodes/testimonial/item/testimonial.php:117
 msgid "Image File for User"
@@ -2467,7 +2467,7 @@ msgstr ""
 
 #: shortcodes/text/text.php:41
 msgid "Simple text"
-msgstr ""
+msgstr "シンプルテキスト"
 
 #: shortcodes/text/text.php:74 shortcodes/tooltip/tooltip.php:68
 msgid "Parent Element Text"
@@ -2535,19 +2535,19 @@ msgstr ""
 
 #: shortcodes/video/video.php:92
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 #: shortcodes/video/video.php:93
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: shortcodes/video/video.php:103
 msgid "Video File"
-msgstr ""
+msgstr "動画ファイル"
 
 #: shortcodes/video/video.php:113 shortcodes/video/video.php:123
 msgid "Video Link"
-msgstr ""
+msgstr "動画リンク"
 
 #: shortcodes/video/video.php:160
 msgid "Overlay Play Button"
@@ -2633,11 +2633,11 @@ msgstr ""
 
 #: templates/custom-css.php:46
 msgid "CSS Files"
-msgstr ""
+msgstr "CSSファイル"
 
 #: templates/custom-css.php:53
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: templates/custom-css.php:58
 msgid "Done"
@@ -2645,7 +2645,7 @@ msgstr ""
 
 #: templates/custom-css.php:85
 msgid "CSS Code"
-msgstr ""
+msgstr "CSSコード"
 
 #: templates/custom-css.php:87
 msgid "Input here custom CSS code you want to be loaded on this page"
@@ -2653,7 +2653,7 @@ msgstr ""
 
 #: templates/layout/list.php:37
 msgid "&mdash; Untitled &mdash;"
-msgstr ""
+msgstr "&mdash; 無題 &mdash;"
 
 #: templates/layout/template.php:24
 msgid "Save current content as template"
@@ -2861,7 +2861,7 @@ msgstr "Wordpressサイトで驚くべきコンテンツが作れます"
 
 #. Author of the plugin/theme
 msgid "WooRockets Team <support@www.woorockets.com>"
-msgstr "WooRockets Team <support@www.woorockets.com>"
+msgstr "WooRocketsチーム <support@www.woorockets.com>"
 
 #. Author URI of the plugin/theme
 msgid "http://www.wordpress.org/plugins/wr-pagebuilder"
@@ -2873,7 +2873,9 @@ msgid ""
 " new hi-quality themes and plugins for you ;) Follow us on <a href=\"%s\" "
 "target=\"_blank\" >Twitter</a> or <a href=\"%s\" target=\"_blank\" "
 ">Subscribe</a> to our email list and be the first to get updated."
-msgstr ""
+msgstr "WR Page Builderをインストールしていただいてありがとうございます。私たちは質の高いプラグインやテーマを作っています。;)<a href=\"%s\" "
+"target=\"_blank\" >ツイッター</a>のフォローや<a href=\"%s\" target=\"_blank\" "
+">メルマガ登録</a>などで最新更新情報をご確認ください。"
 
 #: templates/about-us.php:76
 msgid ""
@@ -2881,31 +2883,31 @@ msgid ""
 "and a totally free WordPress page builder plugin for everyone. It is a "
 "simple drag’n’drop plugin that helps you build a complete WordPress page "
 "within few minutes without any coding knowledge required."
-msgstr ""
+msgstr "<strong>WR Page Builder</strong>はWordPressで簡単にページを作れる無料のプラグインです。簡単なドラッグアンドドロップで技術的なコーディングの知識が無くても質の高いページを作る事ができます。"
 
 #: templates/about-us.php:79
 msgid "Current version"
-msgstr ""
+msgstr "現在のバージョン"
 
 #: templates/about-us.php:79
 msgid "Change log"
-msgstr ""
+msgstr "変更ログ"
 
 #: templates/about-us.php:80
 msgid "Follow us to get latest updates"
-msgstr ""
+msgstr "最新情報を得るためにフォローする"
 
 #: templates/about-us.php:81
 msgid "Follow"
-msgstr ""
+msgstr "フォロー"
 
 #: templates/about-us.php:92
 msgid "Enter your email"
-msgstr ""
+msgstr "メールアドレスを入力"
 
 #: templates/about-us.php:95
 msgid "Join our mailing list"
-msgstr ""
+msgstr "メイリングリストに登録"
 
 #: templates/about-us.php:96
 msgid ""
@@ -2919,19 +2921,19 @@ msgstr ""
 
 #: templates/about-us.php:109
 msgid "Hot Features"
-msgstr ""
+msgstr "機能説明"
 
 #: templates/about-us.php:112
 msgid "For Developers"
-msgstr ""
+msgstr "開発者向け"
 
 #: templates/about-us.php:115
 msgid "For Translators"
-msgstr ""
+msgstr "翻訳者向け"
 
 #: templates/about-us.php:121
 msgid "Intuitive Layout"
-msgstr ""
+msgstr "直感的なレイアウト"
 
 #: templates/about-us.php:122
 msgid ""
@@ -2944,7 +2946,7 @@ msgstr ""
 
 #: templates/about-us.php:125
 msgid "Drag and Drop Layout"
-msgstr ""
+msgstr "ドラッグアンドドロップレイアウト"
 
 #: templates/about-us.php:126
 msgid ""
